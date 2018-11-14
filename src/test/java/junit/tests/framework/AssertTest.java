@@ -32,7 +32,7 @@ public class AssertTest extends TestCase {
         try {
             fail();
         } catch (AssertionFailedError e) {
-            assertEquals("junit.framework.AssertionFailedError", e.toString());
+            assertEquals("AssertionFailedError", e.toString());
             return;
         }
         throw new AssertionFailedError();
@@ -44,7 +44,7 @@ public class AssertTest extends TestCase {
         try {
             fail("woops!");
         } catch (AssertionFailedError e) {
-            assertEquals("junit.framework.AssertionFailedError: woops!", e.toString());
+            assertEquals("AssertionFailedError: woops!", e.toString());
             return;
         }
         throw new AssertionFailedError();

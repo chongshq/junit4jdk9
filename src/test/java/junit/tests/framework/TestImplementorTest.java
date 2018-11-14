@@ -6,7 +6,7 @@ import junit.framework.TestCase;
 import junit.framework.TestResult;
 
 /**
- * Test an implementor of junit.framework.Test other than TestCase or TestSuite
+ * Test an implementor of Test other than TestCase or TestSuite
  */
 public class TestImplementorTest extends TestCase {
     public static class DoubleTestCase implements Test {

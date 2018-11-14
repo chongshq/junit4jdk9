@@ -92,17 +92,17 @@ Once you have tests, you'll want to run them. JUnit provides tools
 to define the suite to be run and to display its results. To run tests and see the
 results on the console, run this from a Java program:
 
-    org.junit.runner.JUnitCore.runClasses(TestClass1.class, ...);
+    JUnitCore.runClasses(TestClass1.class, ...);
 
 or this from the command line, with both your test class and junit on the classpath:
 
-    java org.junit.runner.JUnitCore TestClass1.class [...other test classes...]
+    java JUnitCore TestClass1.class [...other test classes...]
 
 You make your JUnit 4 test classes accessible to a TestRunner designed to work with earlier versions of JUnit,
 declare a static method _suite_
 that returns a test.
 
-    public static junit.framework.Test suite() {
+    public static Test suite() {
         return new JUnit4TestAdapter(Example.class);
     }
 

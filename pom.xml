@@ -5,6 +5,7 @@
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>JUnit</name>
     <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
@@ -22,7 +23,10 @@
         </license>
     </licenses>
     <modules>
+        <module>core</module>
+        <module>runner</module>
         <module>internal</module>
+        <module>common</module>
     </modules>
 
     <developers>
@@ -151,73 +155,73 @@
             The following plugins are ordered according the Maven build lifecycle.
             http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
             -->
-            <plugin>
-                <!--
-                Checks that the version of user's maven installation is 3.0.4,
-                the JDK is 1.5+, no non-standard repositories are specified in
-                the project, requires only release versions of dependencies of other artifacts.
-                -->
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <version>1.4</version>
-                <executions>
-                    <execution>
-                        <id>enforce-versions</id>
-                        <phase>initialize</phase>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
-                        <configuration>
-                            <fail>true</fail>
-                            <rules>
-                                <requireMavenVersion>
-                                    <!-- Some plugin features require a recent Maven runtime to work properly -->
-                                    <message>Current version of Maven ${maven.version} required to build the project
-                                        should be ${project.prerequisites.maven}, or higher!
-                                    </message>
-                                    <version>[${project.prerequisites.maven},)</version>
-                                </requireMavenVersion>
-                                <requireJavaVersion>
-                                    <message>Current JDK version ${java.version} should be ${jdkVersion}, or higher!
-                                    </message>
-                                    <version>${jdkVersion}</version>
-                                </requireJavaVersion>
-                                <requireNoRepositories>
-                                    <message>Best Practice is to never define repositories in pom.xml (use a repository
-                                        manager instead).
-                                    </message>
-                                </requireNoRepositories>
-                                <requireReleaseDeps>
-                                    <message>No Snapshots Dependencies Allowed!</message>
-                                </requireReleaseDeps>
-                            </rules>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <!--
-                Updates Version#id().
-                -->
-                <groupId>com.google.code.maven-replacer-plugin</groupId>
-                <artifactId>replacer</artifactId>
-                <version>1.5.3</version>
-                <executions>
-                    <execution>
-                        <phase>process-sources</phase>
-                        <goals>
-                            <goal>replace</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <ignoreMissingFile>false</ignoreMissingFile>
-                    <file>${project.build.sourceDirectory}/junit/runner/Version.java.template</file>
-                    <outputFile>${project.build.sourceDirectory}/junit/runner/Version.java</outputFile>
-                    <regex>false</regex>
-                    <token>@version@</token>
-                    <value>${project.version}</value>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--&lt;!&ndash;-->
+                <!--Checks that the version of user's maven installation is 3.0.4,-->
+                <!--the JDK is 1.5+, no non-standard repositories are specified in-->
+                <!--the project, requires only release versions of dependencies of other artifacts.-->
+                <!--&ndash;&gt;-->
+                <!--<artifactId>maven-enforcer-plugin</artifactId>-->
+                <!--<version>1.4</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>enforce-versions</id>-->
+                        <!--<phase>initialize</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>enforce</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<fail>true</fail>-->
+                            <!--<rules>-->
+                                <!--<requireMavenVersion>-->
+                                    <!--&lt;!&ndash; Some plugin features require a recent Maven runtime to work properly &ndash;&gt;-->
+                                    <!--<message>Current version of Maven ${maven.version} required to build the project-->
+                                        <!--should be ${project.prerequisites.maven}, or higher!-->
+                                    <!--</message>-->
+                                    <!--<version>[${project.prerequisites.maven},)</version>-->
+                                <!--</requireMavenVersion>-->
+                                <!--<requireJavaVersion>-->
+                                    <!--<message>Current JDK version ${java.version} should be ${jdkVersion}, or higher!-->
+                                    <!--</message>-->
+                                    <!--<version>${jdkVersion}</version>-->
+                                <!--</requireJavaVersion>-->
+                                <!--<requireNoRepositories>-->
+                                    <!--<message>Best Practice is to never define repositories in pom.xml (use a repository-->
+                                        <!--manager instead).-->
+                                    <!--</message>-->
+                                <!--</requireNoRepositories>-->
+                                <!--<requireReleaseDeps>-->
+                                    <!--<message>No Snapshots Dependencies Allowed!</message>-->
+                                <!--</requireReleaseDeps>-->
+                            <!--</rules>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--&lt;!&ndash;-->
+                <!--Updates Version#id().-->
+                <!--&ndash;&gt;-->
+                <!--<groupId>com.google.code.maven-replacer-plugin</groupId>-->
+                <!--<artifactId>replacer</artifactId>-->
+                <!--<version>1.5.3</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>process-sources</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>replace</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+                <!--<configuration>-->
+                    <!--<ignoreMissingFile>false</ignoreMissingFile>-->
+                    <!--<file>${project.build.sourceDirectory}/junit/runner/Version.java.template</file>-->
+                    <!--<outputFile>${project.build.sourceDirectory}/junit/runner/Version.java</outputFile>-->
+                    <!--<regex>false</regex>-->
+                    <!--<token>@version@</token>-->
+                    <!--<value>${project.version}</value>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
             <plugin><!-- Using jdk 1.5.0_22, package-info.java files are compiled correctly. -->
                 <!--
                 java compiler plugin forked in extra process
@@ -568,7 +572,7 @@
             </activation>
             <properties>
                 <!-- JDK 9 minimal source and target versions are 1.6 -->
-                <jdkVersion>1.6</jdkVersion>
+                <jdkVersion>1.9</jdkVersion>
             </properties>
         </profile>
     </profiles>

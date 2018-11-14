@@ -260,7 +260,7 @@
       the JUnit installation directory is on your CLASSPATH.  Then
       simply type:
     </p>
-    <pre>java org.junit.runner.JUnitCore org.junit.tests.AllTests</pre>
+    <pre>java JUnitCore org.junit.tests.AllTests</pre>
     <p>
       All the tests should pass with an "OK" message.
     </p>
@@ -387,8 +387,8 @@ public class SimpleTest {</pre>
       <code>JUnit4TestAdapter</code> class to create a suite
       containing all of your test methods:
     </p>
-    <pre class="prettyprint linenums">    public static junit.framework.Test suite() {
-        return new junit.framework.JUnit4TestAdapter(SimpleTest.class);
+    <pre class="prettyprint linenums">    public static Test suite() {
+        return new JUnit4TestAdapter(SimpleTest.class);
     }</pre>
       </li>
       <li>
@@ -398,7 +398,7 @@ public class SimpleTest {</pre>
       it's still possible:
     </p>
     <pre class="prettyprint linenums">    public static void main(String args[]) {
-      org.junit.runner.JUnitCore.main("junitfaq.SimpleTest");
+      JUnitCore.main("junitfaq.SimpleTest");
     }
 }</pre>
       </li>
@@ -411,7 +411,7 @@ public class SimpleTest {</pre>
         <p>
           To run the test from the console, type:
         </p>
-        <pre>java org.junit.runner.JUnitCore junitfaq.SimpleTest</pre>
+        <pre>java JUnitCore junitfaq.SimpleTest</pre>
       </li>
       <li>
         <p>
@@ -1126,7 +1126,7 @@ oneTimeTearDown()</pre>
         </p>
         <p>
           <code>
-            java org.junit.runner.JUnitCore &lt;test class name&gt; 
+            java JUnitCore &lt;test class name&gt;
           </code>
         </p>
       </li>
@@ -1721,7 +1721,7 @@ end</pre>
             <answer>    <p>
       Start the <code>TestRunner</code> under the debugger and
       configure the debugger so that it catches
-      the <code>junit.framework.AssertionFailedError</code>.
+      the <code>AssertionFailedError</code>.
     </p>
     <p>
       How you configure this depends on the debugger you prefer to

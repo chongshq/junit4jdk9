@@ -12,7 +12,6 @@ import org.junit.runners.model.InitializationError;
 import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -27,7 +26,7 @@ public class ParentRunnerClassLoaderTest {
         Class<?> usedClass = (Class<?>) fieldWithReference.get(null);
 
         assertEquals("JUnitRunner can be located in own classLoader, so, " +
-                        "Class.forName org.junit.runner.Description.getTestClass can not see " +
+                        "Class.forName Description.getTestClass can not see " +
                         "in current classloader by execute Class.forName",
                 testClassWithOwnClassLoader, usedClass
         );
