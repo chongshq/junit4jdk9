@@ -4,7 +4,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
-import static org.junit.rules.ExpectedException.none;
+import static org.junit.ExpectedException.none;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -12,7 +12,7 @@ import java.lang.reflect.Field;
 import org.junit.ClassRule;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
+import org.junit.ExpectedException;
 
 public class FrameworkFieldTest {
     @Rule

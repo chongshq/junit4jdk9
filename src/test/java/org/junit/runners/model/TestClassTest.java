@@ -13,8 +13,8 @@ import java.util.List;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
-import org.junit.rules.TestRule;
+import org.junit.ExpectedException;
+import org.junit.TestRule;
 import org.junit.runner.RunWith;
 
 public class TestClassTest {

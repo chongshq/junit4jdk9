@@ -19,8 +19,8 @@ import org.junit.After;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TestRule;
-import org.junit.rules.Timeout;
+import org.junit.TestRule;
+import org.junit.Timeout;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 

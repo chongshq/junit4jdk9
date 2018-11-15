@@ -10,7 +10,7 @@ import java.util.List;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.experimental.categories.IncludeCategories;
-import org.junit.rules.ExpectedException;
+import org.junit.ExpectedException;
 import org.junit.runner.manipulation.Filter;
 
 public class JUnitCommandLineParseResultTest {

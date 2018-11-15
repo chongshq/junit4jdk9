@@ -1,5 +1,5 @@
 module common {
-    exports org.junit;
-    exports org.junit.rules to org.junit.runner;
+    exports org.junit.function;
     requires hamcrest.core;
+//    requires org.junit.runner;
 }

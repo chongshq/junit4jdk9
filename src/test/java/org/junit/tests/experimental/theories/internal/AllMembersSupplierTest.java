@@ -17,7 +17,7 @@ import org.junit.experimental.theories.ParameterSignature;
 import org.junit.experimental.theories.PotentialAssignment;
 import org.junit.experimental.theories.Theory;
 import org.junit.experimental.theories.internal.AllMembersSupplier;
-import org.junit.rules.ExpectedException;
+import org.junit.ExpectedException;
 import org.junit.runners.model.TestClass;
 
 public class AllMembersSupplierTest {

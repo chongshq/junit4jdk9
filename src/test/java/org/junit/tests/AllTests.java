@@ -4,7 +4,7 @@ import junit.framework.JUnit4TestAdapter;
 import junit.framework.Test;
 import org.junit.AssumptionViolatedExceptionTest;
 import org.junit.internal.AllInternalTests;
-import org.junit.rules.AllRulesTests;
+import org.junit.AllRulesTests;
 import org.junit.runner.AllRunnerTests;
 import org.junit.runner.RunWith;
 import org.junit.runners.AllRunnersTests;

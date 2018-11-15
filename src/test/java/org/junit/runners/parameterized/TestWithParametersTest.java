@@ -3,14 +3,14 @@ package org.junit.runners.parameterized;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
-import static org.junit.rules.ExpectedException.none;
+import static org.junit.ExpectedException.none;
 
 import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
+import org.junit.ExpectedException;
 import org.junit.runners.model.TestClass;
 
 public class TestWithParametersTest {

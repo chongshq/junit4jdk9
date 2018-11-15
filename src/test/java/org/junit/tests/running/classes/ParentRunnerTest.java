@@ -26,8 +26,8 @@ import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.ParentRunner;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerScheduler;
-import org.junit.rules.RuleMemberValidatorTest.TestWithNonStaticClassRule;
-import org.junit.rules.RuleMemberValidatorTest.TestWithProtectedClassRule;
+import org.junit.RuleMemberValidatorTest.TestWithNonStaticClassRule;
+import org.junit.RuleMemberValidatorTest.TestWithProtectedClassRule;
 
 public class ParentRunnerTest {
     public static String log = "";

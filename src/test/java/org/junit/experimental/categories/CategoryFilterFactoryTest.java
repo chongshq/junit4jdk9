@@ -8,8 +8,8 @@ import java.util.List;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
-import org.junit.rules.TestName;
+import org.junit.ExpectedException;
+import org.junit.TestName;
 import org.junit.runner.Description;
 import org.junit.runner.FilterFactory;
 import org.junit.runner.FilterFactoryParams;

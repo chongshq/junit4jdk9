@@ -3,7 +3,7 @@ package org.junit.runners.parameterized;
 import static java.util.Collections.emptyList;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
-import static org.junit.rules.ExpectedException.none;
+import static org.junit.ExpectedException.none;
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.ElementType;
@@ -15,7 +15,7 @@ import java.util.List;
 
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
+import org.junit.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.model.TestClass;

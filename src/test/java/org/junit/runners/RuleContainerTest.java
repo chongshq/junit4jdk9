@@ -3,8 +3,8 @@ package org.junit.runners;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.junit.rules.MethodRule;
-import org.junit.rules.TestRule;
+import org.junit.MethodRule;
+import org.junit.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;

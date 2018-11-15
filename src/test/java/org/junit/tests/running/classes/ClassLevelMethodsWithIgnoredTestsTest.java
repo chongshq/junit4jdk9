@@ -11,7 +11,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Categories.CategoryFilter;
 import org.junit.experimental.categories.Category;
-import org.junit.rules.TestRule;
+import org.junit.TestRule;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
