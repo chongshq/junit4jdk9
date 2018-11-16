@@ -19,7 +19,7 @@ import java.math.BigDecimal;
 
 import org.junit.Assert;
 import org.junit.ComparisonFailure;
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.function.ThrowingRunnable;
 import org.junit.internal.ArrayComparisonFailure;
 

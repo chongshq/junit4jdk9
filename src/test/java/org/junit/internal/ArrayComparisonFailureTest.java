@@ -1,6 +1,6 @@
 package org.junit.internal;
 
-import org.junit.Test;
+import org.junit.common.Test;
 
 import java.io.IOException;
 import java.io.InputStream;

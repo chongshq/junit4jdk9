@@ -1,6 +1,6 @@
 package org.junit.runners.parameterized;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.Request;
 import org.junit.runner.RunWith;

@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.util.Collection;
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.TestClass;

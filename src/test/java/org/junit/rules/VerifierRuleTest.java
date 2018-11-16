@@ -5,8 +5,8 @@ import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 
 public class VerifierRuleTest {
 

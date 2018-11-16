@@ -15,10 +15,10 @@ import java.util.concurrent.TimeUnit;
 
 import junit.framework.JUnit4TestAdapter;
 import junit.framework.TestResult;
-import org.junit.After;
-import org.junit.Ignore;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.Ignore;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.rules.TestRule;
 import org.junit.rules.Timeout;
 import org.junit.runner.JUnitCore;

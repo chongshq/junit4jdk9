@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.hamcrest.Matcher;
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;

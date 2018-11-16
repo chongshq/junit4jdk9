@@ -1,6 +1,6 @@
 package org.junit.runner.notification;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 
 import java.util.Random;

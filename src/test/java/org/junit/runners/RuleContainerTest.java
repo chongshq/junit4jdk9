@@ -2,9 +2,7 @@ package org.junit.runners;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.Arrays;
-
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

@@ -7,8 +7,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.List;
 
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.experimental.categories.IncludeCategories;
 import org.junit.rules.ExpectedException;
 import org.junit.runner.manipulation.Filter;

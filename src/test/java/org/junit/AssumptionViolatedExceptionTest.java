@@ -4,9 +4,11 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
-import static org.junit.Assume.assumeThat;
+import static org.junit.common.Assume.assumeThat;
 import org.hamcrest.Matcher;
 import org.hamcrest.StringDescription;
+import org.junit.common.AssumptionViolatedException;
+import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
@@ -60,8 +62,8 @@ public class AssumptionViolatedExceptionTest {
     @SuppressWarnings("deprecation")
     public void canSetCauseWithInstanceCreatedWithObjectAndMatcher() {
       Throwable testObject = new Exception();
-      org.junit.internal.AssumptionViolatedException e
-              = new org.junit.internal.AssumptionViolatedException(
+      org.junit.common.internal.AssumptionViolatedException e
+              = new org.junit.common.internal.AssumptionViolatedException(
                       testObject, containsString("test matcher"));
       assertThat(e.getCause(), is(testObject));
     }
@@ -70,8 +72,8 @@ public class AssumptionViolatedExceptionTest {
     @SuppressWarnings("deprecation")
     public void canSetCauseWithInstanceCreatedWithAssumptionObjectAndMatcher() {
       Throwable testObject = new Exception();
-      org.junit.internal.AssumptionViolatedException e
-              = new org.junit.internal.AssumptionViolatedException(
+      org.junit.common.internal.AssumptionViolatedException e
+              = new org.junit.common.internal.AssumptionViolatedException(
                       "sample assumption", testObject, containsString("test matcher"));
       assertThat(e.getCause(), is(testObject));
     }
@@ -80,8 +82,8 @@ public class AssumptionViolatedExceptionTest {
     @SuppressWarnings("deprecation")
     public void canSetCauseWithInstanceCreatedWithMainConstructor() {
       Throwable testObject = new Exception();
-      org.junit.internal.AssumptionViolatedException e
-              = new org.junit.internal.AssumptionViolatedException(
+      org.junit.common.internal.AssumptionViolatedException e
+              = new org.junit.common.internal.AssumptionViolatedException(
                       "sample assumption", false, testObject, containsString("test matcher"));
       assertThat(e.getCause(), is(testObject));
     }

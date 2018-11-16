@@ -3,8 +3,8 @@ package org.junit.samples;
 import static org.junit.Assert.assertEquals;
 
 import junit.framework.JUnit4TestAdapter;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 
 /**
  * Some simple tests.

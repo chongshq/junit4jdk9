@@ -6,14 +6,14 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-import static org.junit.Assume.assumeTrue;
+import static org.junit.common.Assume.assumeTrue;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.AssumptionViolatedException;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.AssumptionViolatedException;
+import org.junit.common.Before;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;

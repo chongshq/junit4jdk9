@@ -8,8 +8,8 @@ import junit.framework.JUnit4TestAdapter;
 import junit.samples.money.IMoney;
 import junit.samples.money.Money;
 import junit.samples.money.MoneyBag;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 
 public class MoneyTest {
     private Money f12CHF;

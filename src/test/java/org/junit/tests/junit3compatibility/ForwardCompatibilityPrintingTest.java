@@ -11,7 +11,7 @@ import junit.framework.TestSuite;
 import junit.textui.ResultPrinter;
 import junit.textui.TestRunner;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.common.Test;
 
 public class ForwardCompatibilityPrintingTest extends TestCase {
     static class TestResultPrinter extends ResultPrinter {

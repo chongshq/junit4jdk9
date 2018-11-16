@@ -2,8 +2,6 @@ package junit.tests.runner;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -12,7 +10,8 @@ import java.util.List;
 
 import junit.framework.TestCase;
 import junit.tests.framework.Success;
-import org.junit.Test;
+import org.junit.common.Test;
+import org.junit.common.Assume;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
@@ -101,7 +100,7 @@ public class ResultTest extends TestCase {
     static public class AssumptionFailedTest {
         @Test
         public void assumptionFailed() throws Exception {
-            org.junit.Assume.assumeTrue(false);
+            Assume.assumeTrue(false);
         }
     }
 

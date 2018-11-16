@@ -10,8 +10,8 @@ import java.lang.annotation.Annotation;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 
 public class DescriptionTest {

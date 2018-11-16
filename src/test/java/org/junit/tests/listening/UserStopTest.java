@@ -1,7 +1,7 @@
 package org.junit.tests.listening;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.runner.Request;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runner.notification.StoppedByUserException;

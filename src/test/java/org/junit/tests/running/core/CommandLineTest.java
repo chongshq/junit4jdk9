@@ -6,9 +6,9 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 
 public class CommandLineTest {

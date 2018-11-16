@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.BeforeClass;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 
 /**
  * A sample test case, testing {@link java.util.ArrayList}.

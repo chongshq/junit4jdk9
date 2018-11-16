@@ -117,7 +117,7 @@ we have decided to include the classes from hamcrest-core,
 from the <a href="http://code.google.com/p/hamcrest/">Hamcrest</a> project.  This is the first time that
 third-party classes have been included in JUnit.  </p></li>
 <li><p>JUnit currently ships with a few matchers, defined in 
-<code>org.hamcrest.CoreMatchers</code> and <code>org.junit.matchers.JUnitMatchers</code>. <br />
+<code>org.hamcrest.CoreMatchers</code> and <code>org.junit.util.matchers.JUnitMatchers</code>. <br />
 To use many, many more, consider downloading the <a href="http://hamcrest.googlecode.com/files/hamcrest-all-1.1.jar">full hamcrest package</a>.</p></li>
 <li><p>JUnit contains special support for comparing string and array
 values, giving specific information on how they differ.  This is not
@@ -139,7 +139,7 @@ It's good to be able to run a test against the code as it is currently written,
 implicit assumptions and all, or to write a test that exposes a known bug.
 For these situations, JUnit now includes the ability to express "assumptions":</p>
 
-<pre><code>import static org.junit.Assume.*
+<pre><code>import static org.junit.common.Assume.*
 
 @Test public void filenameIncludesUsername() {
    assumeThat(File.separatorChar, is('/'));

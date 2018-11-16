@@ -12,13 +12,13 @@ import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.junit.ClassRule;
-import org.junit.FixMethodOrder;
-import org.junit.Test;
+import org.junit.common.ClassRule;
+import org.junit.common.FixMethodOrder;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
-import org.junit.runners.MethodSorters;
+import org.junit.common.runners.MethodSorters;
 import org.junit.runners.model.Statement;
 
 /**

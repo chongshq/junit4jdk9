@@ -22,7 +22,7 @@ JUnit tests do not require human judgment to interpret, and it is easy
 to run many of them at the same time. When you need to test something,
 here is what you do:
 
-1.  Annotate a method with `@org.junit.Test`
+1.  Annotate a method with `@org.junit.common.Test`
 
 1. When you want to check a value, import `org.junit.Assert.*` statically, call `assertTrue()` and pass a boolean
 that is true if the test succeeds
@@ -62,8 +62,8 @@ results.
 When you have a common fixture, here is what you do:
 
 1.  Add a field for each part of the fixture
-2.  Annotate a method with `@org.junit.Before` and initialize the variables in that method
-3.  Annotate a method with `@org.junit.After` to release any permanent resources you allocated in `setUp`
+2.  Annotate a method with `@org.junit.common.Before` and initialize the variables in that method
+3.  Annotate a method with `@org.junit.common.After` to release any permanent resources you allocated in `setUp`
 
 For example, to write several test cases that want to work with different
 combinations of 12 Swiss Francs, 14 Swiss Francs, and 28 US Dollars, first

@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
-import static org.junit.internal.matchers.ThrowableCauseMatcher.hasCause;
+import static org.junit.util.internal.matchers.ThrowableCauseMatcher.hasCause;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,10 +17,10 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.Matcher;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.TestCouldNotBeSkippedException;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.Rule;
+import org.junit.common.Test;
+import org.junit.common.TestCouldNotBeSkippedException;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.internal.runners.statements.Fail;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;

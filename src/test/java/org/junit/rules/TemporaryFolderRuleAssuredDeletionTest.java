@@ -6,8 +6,8 @@ import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.failureCountIs;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.experimental.results.PrintableResult;
 
 public class TemporaryFolderRuleAssuredDeletionTest {

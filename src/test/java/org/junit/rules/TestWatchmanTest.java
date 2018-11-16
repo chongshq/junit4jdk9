@@ -3,11 +3,11 @@ package org.junit.rules;
 import static junit.framework.Assert.fail;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.junit.Assume.assumeTrue;
+import static org.junit.common.Assume.assumeTrue;
 import static org.junit.runner.JUnitCore.runClasses;
-import org.junit.BeforeClass;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.BeforeClass;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.runners.model.FrameworkMethod;
 
 @SuppressWarnings("deprecation")

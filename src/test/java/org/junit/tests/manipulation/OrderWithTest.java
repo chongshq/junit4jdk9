@@ -2,8 +2,8 @@ package org.junit.tests.manipulation;
 
 import static org.junit.Assert.assertEquals;
 import junit.framework.JUnit4TestAdapter;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;

@@ -3,17 +3,17 @@ package org.junit.rules;
 import static java.util.Arrays.asList;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.*;
-import static org.junit.Assume.assumeTrue;
+import static org.junit.common.Assume.assumeTrue;
 import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.failureCountIs;
 import static org.junit.experimental.results.ResultMatchers.hasFailureContaining;
 import static org.junit.rules.ExpectedException.none;
 
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.runners.Enclosed;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -124,7 +124,7 @@ public class TestWatcherTest {
             }
 
             @Override
-            protected void skipped(org.junit.AssumptionViolatedException e, Description description) {
+            protected void skipped(org.junit.common.AssumptionViolatedException e, Description description) {
                 throw new RuntimeException("skipped failed");
             }
 
@@ -241,12 +241,12 @@ public class TestWatcherTest {
 
         public static class Skipped {
             private static Description catchedDescription;
-            private static org.junit.AssumptionViolatedException catchedException;
+            private static org.junit.common.AssumptionViolatedException catchedException;
 
             @Rule
             public final TestRule watcher = new TestWatcher() {
                 @Override
-                protected void skipped(org.junit.AssumptionViolatedException e, Description description) {
+                protected void skipped(org.junit.common.AssumptionViolatedException e, Description description) {
                     catchedDescription = description;
                     catchedException = e;
                 }
@@ -262,7 +262,7 @@ public class TestWatcherTest {
         public void skipped() {
             JUnitCore.runClasses(Skipped.class);
             assertEquals("test skipped", Skipped.catchedException.getMessage());
-            assertEquals(org.junit.AssumptionViolatedException.class, Skipped.catchedException.getClass());
+            assertEquals(org.junit.common.AssumptionViolatedException.class, Skipped.catchedException.getClass());
             assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Skipped)",
                     Skipped.catchedDescription.getDisplayName());
         }

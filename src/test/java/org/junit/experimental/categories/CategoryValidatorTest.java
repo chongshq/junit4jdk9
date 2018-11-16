@@ -5,13 +5,11 @@ import static org.junit.Assert.assertThat;
 
 import java.util.List;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.experimental.categories.Category;
-import org.junit.experimental.categories.CategoryValidator;
+import org.junit.common.After;
+import org.junit.common.AfterClass;
+import org.junit.common.Before;
+import org.junit.common.BeforeClass;
+import org.junit.common.Test;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.TestClass;
 

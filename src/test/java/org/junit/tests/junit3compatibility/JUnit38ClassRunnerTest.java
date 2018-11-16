@@ -13,7 +13,7 @@ import junit.framework.JUnit4TestAdapter;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;

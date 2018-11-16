@@ -4,15 +4,15 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
-import static org.junit.Assume.assumeTrue;
+import static org.junit.common.Assume.assumeTrue;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.common.AfterClass;
+import org.junit.common.Before;
+import org.junit.common.BeforeClass;
+import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;

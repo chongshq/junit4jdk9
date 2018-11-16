@@ -2,8 +2,8 @@ package org.junit.tests.experimental.theories;
 
 import static org.junit.tests.experimental.theories.TheoryTestUtils.runTheoryClass;
 import org.junit.Assert;
-import org.junit.Assume;
-import org.junit.Test;
+import org.junit.common.Assume;
+import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;

@@ -14,9 +14,9 @@ import java.util.Collections;
 import java.util.List;
 
 import org.hamcrest.CoreMatchers;
-import org.junit.Test;
-import org.junit.TestCouldNotBeSkippedException;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.Test;
+import org.junit.common.TestCouldNotBeSkippedException;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runners.model.MultipleFailureException;
 
 

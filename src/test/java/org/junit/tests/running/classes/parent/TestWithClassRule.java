@@ -1,8 +1,8 @@
 package org.junit.tests.running.classes.parent;
 
 import org.junit.Assert;
-import org.junit.ClassRule;
-import org.junit.Test;
+import org.junit.common.ClassRule;
+import org.junit.common.Test;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;

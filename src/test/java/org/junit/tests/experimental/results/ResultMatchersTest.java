@@ -1,6 +1,6 @@
 package org.junit.tests.experimental.results;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.results.ResultMatchers;
 import org.junit.experimental.theories.Theory;

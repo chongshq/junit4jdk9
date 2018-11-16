@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.common.BeforeClass;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;

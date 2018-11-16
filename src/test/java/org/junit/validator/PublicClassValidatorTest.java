@@ -7,7 +7,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import java.util.Collections;
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runners.model.TestClass;
 
 public class PublicClassValidatorTest {

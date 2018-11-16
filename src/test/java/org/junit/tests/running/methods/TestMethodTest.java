@@ -8,12 +8,12 @@ import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
 import junit.framework.TestResult;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.AfterClass;
+import org.junit.common.Before;
+import org.junit.common.BeforeClass;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runners.BlockJUnit4ClassRunner;

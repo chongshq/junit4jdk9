@@ -4,11 +4,11 @@ import static org.junit.Assert.fail;
 
 import java.util.List;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.ClassRule;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.AfterClass;
+import org.junit.common.BeforeClass;
+import org.junit.common.ClassRule;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 import org.junit.experimental.categories.Categories.CategoryFilter;
 import org.junit.experimental.categories.Category;
 import org.junit.rules.TestRule;

@@ -2,7 +2,7 @@ package org.junit.tests.experimental.theories.runner;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.tests.experimental.theories.TheoryTestUtils.potentialAssignments;
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.runner.RunWith;

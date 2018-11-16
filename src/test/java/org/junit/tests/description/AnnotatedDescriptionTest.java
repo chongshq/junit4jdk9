@@ -7,8 +7,8 @@ import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.Request;
 

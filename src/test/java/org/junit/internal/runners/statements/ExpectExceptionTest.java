@@ -1,7 +1,7 @@
 package org.junit.internal.runners.statements;
 
-import org.junit.Test;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.Test;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runners.model.Statement;
 
 import static org.hamcrest.CoreMatchers.containsString;
@@ -50,7 +50,7 @@ public class ExpectExceptionTest {
             expectException.evaluate();
             fail("should throw 'Unexpected exception' when statement throws an exception which is not the one expected");
         } catch (Exception e) {
-            assertThat(e.getMessage(), equalTo("Unexpected exception, expected<org.junit.internal.AssumptionViolatedException> " +
+            assertThat(e.getMessage(), equalTo("Unexpected exception, expected<org.junit.common.internal.AssumptionViolatedException> " +
                     "but was<org.junit.internal.runners.statements.ExpectExceptionTest$SomeException>"));
         }
     }

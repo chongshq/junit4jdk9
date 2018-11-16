@@ -1,6 +1,6 @@
 package org.junit.tests.validation.anotherpackage;
 
-import org.junit.Test;
+import org.junit.common.Test;
 
 class Super {
     @Test

@@ -1,0 +1,49 @@
+package org.junit.common;
+
+import org.hamcrest.Matcher;
+import org.junit.common.Assume;
+
+/**
+ * An exception class used to implement <i>assumptions</i> (state in which a given test
+ * is meaningful and should or should not be executed). A test for which an assumption
+ * fails should not generate a test case failure.
+ *
+ * @see Assume
+ * @since 4.12
+ */
+@SuppressWarnings("deprecation")
+public class AssumptionViolatedException extends org.junit.common.internal.AssumptionViolatedException {
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * An assumption exception with the given <i>actual</i> value and a <i>matcher</i> describing 
+     * the expectation that failed.
+     */
+    @Deprecated
+    public <T> AssumptionViolatedException(T actual, Matcher<T> matcher) {
+        super(actual, matcher);
+    }
+
+    /**
+     * An assumption exception with a message with the given <i>actual</i> value and a
+     * <i>matcher</i> describing the expectation that failed.
+     */
+    @Deprecated
+    public <T> AssumptionViolatedException(String message, T actual, Matcher<T> matcher) {
+        super(message, actual, matcher);
+    }
+
+    /**
+     * An assumption exception with the given message only.
+     */
+    public AssumptionViolatedException(String message) {
+        super(message);
+    }
+
+    /**
+     * An assumption exception with the given message and a cause.
+     */
+    public AssumptionViolatedException(String message, Throwable t) {
+        super(message, t);
+    }
+}

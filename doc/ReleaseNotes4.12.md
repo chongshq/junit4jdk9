@@ -122,11 +122,11 @@ This allows for validation to be added to annotations. Validators should extend 
 
 In JUnit 4.11 and earlier, if you wanted to write a custom runner that handled
 `AssumptionViolatedException` or you needed to create an instance of `AssumptionViolatedException`
-directly, you needed to import an internal class (`org.junit.internal.AssumptionViolatedException`).
-Now you can import `org.junit.AssumptionViolatedException` (which extends
-`org.junit.internal.AssumptionViolatedException`).
+directly, you needed to import an internal class (`org.junit.common.internal.AssumptionViolatedException`).
+Now you can import `org.junit.common.AssumptionViolatedException` (which extends
+`org.junit.common.internal.AssumptionViolatedException`).
 
-The classes in `Assume` have been modified to throw `org.junit.AssumptionViolatedException`.
+The classes in `Assume` have been modified to throw `org.junit.common.AssumptionViolatedException`.
 
 The constructors in the external `AssumptionViolatedException` are also
 simpler than the ones in the internal version. That being said,

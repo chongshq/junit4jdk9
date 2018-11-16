@@ -1,6 +1,6 @@
 package org.junit.tests;
 
-import org.junit.Test;
+import org.junit.common.Test;
 
 /**
  * Container for sample JUnit4-style tests used in integration tests.

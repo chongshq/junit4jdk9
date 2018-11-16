@@ -1,10 +1,10 @@
 package org.junit.internal.matchers;
 
-import org.junit.Test;
+import org.junit.common.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.junit.internal.matchers.ThrowableCauseMatcher.hasCause;
+import static org.junit.util.internal.matchers.ThrowableCauseMatcher.hasCause;
 
 public class ThrowableCauseMatcherTest {
 

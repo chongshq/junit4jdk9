@@ -11,10 +11,10 @@ import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
 import junit.framework.TestResult;
-import org.junit.AfterClass;
+import org.junit.common.AfterClass;
 import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.common.BeforeClass;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
 import org.junit.runner.Result;

@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.TestCase;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.experimental.max.MaxCore;
 import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.runner.Computer;

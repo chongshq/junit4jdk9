@@ -8,8 +8,8 @@ import static org.junit.rules.ExpectedException.none;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.runners.model.TestClass;
 

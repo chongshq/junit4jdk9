@@ -149,7 +149,7 @@ import static org.hamcrest.CoreMatchers.*;
 [Hamcrest]: http://code.google.com/p/hamcrest/
 
 - JUnit currently ships with a few matchers, defined in 
-  `org.hamcrest.CoreMatchers` and `org.junit.matchers.JUnitMatchers`.  
+  `org.hamcrest.CoreMatchers` and `org.junit.util.matchers.JUnitMatchers`.  
   To use many, many more, consider downloading the [full hamcrest package][].
 
 [full hamcrest package]: http://hamcrest.googlecode.com/files/hamcrest-all-1.1.jar
@@ -173,7 +173,7 @@ implicit assumptions and all, or to write a test that exposes a known bug.
 For these situations, JUnit now includes the ability to express "assumptions":
 
 ```java
-import static org.junit.Assume.*
+import static org.junit.common.Assume.*
 
 @Test public void filenameIncludesUsername() {
     assumeThat(File.separatorChar, is('/'));

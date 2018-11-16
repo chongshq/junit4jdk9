@@ -9,9 +9,9 @@ import static org.junit.internal.runners.rules.RuleMemberValidator.RULE_VALIDATO
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.ClassRule;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.ClassRule;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 import org.junit.runners.model.TestClass;

@@ -9,10 +9,10 @@ import static org.junit.Assert.assertTrue;
 import java.io.File;
 import java.io.IOException;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.Before;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 
 /**
  * <tt>TemporaryFolderUsageTest</tt> provides tests for API usage correctness

@@ -1,6 +1,6 @@
 package org.junit.runner;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.tests.TestSystem;
 
 import static org.hamcrest.CoreMatchers.instanceOf;

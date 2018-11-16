@@ -8,9 +8,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.FixMethodOrder;
-import org.junit.Test;
-import org.junit.runners.MethodSorters;
+import org.junit.common.FixMethodOrder;
+import org.junit.common.Test;
+import org.junit.common.internal.MethodSorter;
+import org.junit.common.runners.MethodSorters;
 
 public class MethodSorterTest {
     private static final String ALPHA = "java.lang.Object alpha(int,double,java.lang.Thread)";

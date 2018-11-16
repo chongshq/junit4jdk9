@@ -7,7 +7,7 @@ import static org.junit.tests.experimental.theories.TheoryTestUtils.potentialAss
 
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.FromDataPoints;

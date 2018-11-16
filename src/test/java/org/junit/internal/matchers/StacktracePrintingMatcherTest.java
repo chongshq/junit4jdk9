@@ -7,10 +7,10 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
-import static org.junit.internal.matchers.StacktracePrintingMatcher.isException;
-import static org.junit.internal.matchers.StacktracePrintingMatcher.isThrowable;
+import static org.junit.util.internal.matchers.StacktracePrintingMatcher.isException;
+import static org.junit.util.internal.matchers.StacktracePrintingMatcher.isThrowable;
 
-import org.junit.Test;
+import org.junit.common.Test;
 
 public class StacktracePrintingMatcherTest {
 

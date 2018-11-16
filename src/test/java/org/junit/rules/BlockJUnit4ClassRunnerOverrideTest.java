@@ -9,7 +9,7 @@ import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;

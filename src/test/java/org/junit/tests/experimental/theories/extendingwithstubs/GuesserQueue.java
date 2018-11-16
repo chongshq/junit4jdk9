@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import org.junit.experimental.theories.PotentialAssignment;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.internal.AssumptionViolatedException;
 
 public class GuesserQueue extends ArrayList<ReguessableValue> {
     static class ReguessableDecorator extends ReguessableValue {

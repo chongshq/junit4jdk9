@@ -3,7 +3,7 @@ package org.junit.tests.description;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 
 public class SuiteDescriptionTest {

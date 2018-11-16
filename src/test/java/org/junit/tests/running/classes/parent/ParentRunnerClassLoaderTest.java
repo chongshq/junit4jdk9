@@ -1,7 +1,7 @@
 package org.junit.tests.running.classes.parent;
 
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
@@ -12,7 +12,6 @@ import org.junit.runners.model.InitializationError;
 import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 

@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;
 import junit.framework.TestListener;
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.runner.Result;
 import org.junit.runner.notification.RunListener;

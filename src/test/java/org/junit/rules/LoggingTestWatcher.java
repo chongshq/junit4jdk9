@@ -1,6 +1,6 @@
 package org.junit.rules;
 
-import org.junit.AssumptionViolatedException;
+import org.junit.common.AssumptionViolatedException;
 import org.junit.runner.Description;
 
 class LoggingTestWatcher extends TestWatcher {
@@ -26,7 +26,7 @@ class LoggingTestWatcher extends TestWatcher {
     }
 
     @Override
-    protected void skipped(org.junit.internal.AssumptionViolatedException e, Description description) {
+    protected void skipped(org.junit.common.internal.AssumptionViolatedException e, Description description) {
         log.append("deprecated skipped ");
     }
 

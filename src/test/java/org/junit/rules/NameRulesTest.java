@@ -2,10 +2,10 @@ package org.junit.rules;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.After;
+import org.junit.common.Before;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 

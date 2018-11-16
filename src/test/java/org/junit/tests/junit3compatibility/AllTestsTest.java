@@ -8,6 +8,7 @@ import static org.junit.Assert.assertTrue;
 import junit.framework.JUnit4TestAdapter;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.RunWith;
 import org.junit.runners.AllTests;
@@ -31,7 +32,7 @@ public class AllTestsTest {
         }
     }
 
-    @org.junit.Test
+    @Test
     public void ensureTestIsRun() {
         JUnitCore runner = new JUnitCore();
         run = false; // Have to explicitly set run here because the runner might independently run OneTest above
@@ -39,20 +40,20 @@ public class AllTestsTest {
         assertTrue(run);
     }
 
-    @org.junit.Test
+    @Test
     public void correctTestCount() throws Throwable {
         AllTests tests = new AllTests(All.class);
         assertEquals(1, tests.testCount());
     }
 
-    @org.junit.Test
+    @Test
     public void someUsefulDescription() throws Throwable {
         AllTests tests = new AllTests(All.class);
         assertThat(tests.getDescription().toString(), containsString("OneTest"));
     }
 
     public static class JUnit4Test {
-        @org.junit.Test
+        @Test
         public void testSomething() {
             run = true;
         }
@@ -67,7 +68,7 @@ public class AllTestsTest {
         }
     }
 
-    @org.junit.Test
+    @Test
     public void correctTestCountAdapted() throws Throwable {
         AllTests tests = new AllTests(AllJUnit4.class);
         assertEquals(1, tests.testCount());
@@ -80,7 +81,7 @@ public class AllTestsTest {
         }
     }
 
-    @org.junit.Test(expected = RuntimeException.class)
+    @Test(expected = RuntimeException.class)
     public void exceptionThrownWhenSuiteIsBad() throws Throwable {
         new AllTests(BadSuiteMethod.class);
     }

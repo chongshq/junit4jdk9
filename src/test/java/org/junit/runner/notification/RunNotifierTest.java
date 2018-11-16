@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.junit.Test;
+import org.junit.common.Test;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
 

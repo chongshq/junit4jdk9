@@ -14,10 +14,9 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
-import org.junit.After;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.TemporaryFolder;
+import org.junit.common.After;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 
 public class TempFolderRuleTest {
     private static File[] createdFiles = new File[20];

@@ -2,13 +2,13 @@ package org.junit.tests;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.junit.Assume.assumeNotNull;
-import static org.junit.Assume.assumeThat;
+import static org.junit.common.Assume.assumeNotNull;
+import static org.junit.common.Assume.assumeThat;
 
 import java.lang.reflect.Method;
 
-import org.junit.Test;
-import org.junit.Test.None;
+import org.junit.common.Test;
+import org.junit.common.Test.None;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;

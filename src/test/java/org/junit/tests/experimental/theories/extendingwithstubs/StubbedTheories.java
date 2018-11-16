@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.experimental.theories.ParameterSignature;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.internal.Assignments;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.Statement;

@@ -4,8 +4,8 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 

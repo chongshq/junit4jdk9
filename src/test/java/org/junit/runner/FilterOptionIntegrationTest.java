@@ -3,8 +3,8 @@ package org.junit.runner;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.common.Before;
+import org.junit.common.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.experimental.categories.ExcludeCategories;
 import org.junit.experimental.categories.IncludeCategories;

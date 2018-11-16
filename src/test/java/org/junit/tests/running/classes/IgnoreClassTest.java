@@ -3,8 +3,8 @@ package org.junit.tests.running.classes;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.common.Ignore;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 

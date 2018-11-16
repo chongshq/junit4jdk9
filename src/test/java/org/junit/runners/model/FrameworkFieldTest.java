@@ -9,9 +9,9 @@ import static org.junit.rules.ExpectedException.none;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
-import org.junit.ClassRule;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.ClassRule;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.rules.ExpectedException;
 
 public class FrameworkFieldTest {

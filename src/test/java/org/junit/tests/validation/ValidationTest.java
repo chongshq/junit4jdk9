@@ -4,8 +4,8 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.common.BeforeClass;
+import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
 import org.junit.runner.Result;

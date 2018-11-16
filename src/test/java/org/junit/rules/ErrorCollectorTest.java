@@ -2,10 +2,10 @@ package org.junit.rules;
 
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.common.Rule;
+import org.junit.common.Test;
 import org.junit.function.ThrowingRunnable;
-import org.junit.internal.AssumptionViolatedException;
+import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -20,7 +20,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-import static org.junit.Assume.assumeTrue;
+import static org.junit.common.Assume.assumeTrue;
 import static org.junit.rules.EventCollector.*;
 
 @RunWith(Parameterized.class)
