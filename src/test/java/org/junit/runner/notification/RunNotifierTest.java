@@ -9,8 +9,12 @@ import static org.junit.Assert.assertThat;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.Result;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunNotifier;
+import org.junit.common.runner.notification.SynchronizedRunListener;
 
 public class RunNotifierTest {
     private final RunNotifier fNotifier = new RunNotifier();

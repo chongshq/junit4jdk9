@@ -1,6 +1,6 @@
 package org.junit.runners.model;
 
-import org.junit.runner.Runner;
+import org.junit.common.runner.Runner;
 import org.junit.runner.RunnerSpy;
 
 public class RunnerBuilderStub extends RunnerBuilder {

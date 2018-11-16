@@ -9,11 +9,11 @@ import junit.framework.TestSuite;
 import org.junit.internal.requests.SortingRequest;
 import org.junit.internal.runners.ErrorReportingRunner;
 import org.junit.internal.runners.JUnit38ClassRunner;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.runner.Result;
-import org.junit.runner.Runner;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.Runner;
 import org.junit.runners.Suite;
 import org.junit.runners.model.InitializationError;
 

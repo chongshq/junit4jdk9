@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.common.ClassRule;
 import org.junit.common.Test;
 import org.junit.rules.TestRule;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.Statement;
 
 import java.lang.reflect.Field;

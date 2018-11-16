@@ -5,10 +5,10 @@ import static org.junit.Assert.assertEquals;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunListener;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.Statement;

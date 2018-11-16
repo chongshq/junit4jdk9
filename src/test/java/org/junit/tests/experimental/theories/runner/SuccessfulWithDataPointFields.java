@@ -17,7 +17,7 @@ import org.junit.experimental.runners.Enclosed;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 
 @RunWith(Enclosed.class)
 public class SuccessfulWithDataPointFields {

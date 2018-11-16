@@ -10,8 +10,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;

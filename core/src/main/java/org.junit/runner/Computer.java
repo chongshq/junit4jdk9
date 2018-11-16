@@ -1,5 +1,6 @@
 package org.junit.runner;
 
+import org.junit.common.runner.Runner;
 import org.junit.runners.Suite;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;
@@ -24,7 +25,7 @@ public class Computer {
      * Throws an InitializationError if Runner construction fails
      */
     public Runner getSuite(final RunnerBuilder builder,
-            Class<?>[] classes) throws InitializationError {
+                           Class<?>[] classes) throws InitializationError {
         return new Suite(new RunnerBuilder() {
             @Override
             public Runner runnerForClass(Class<?> testClass) throws Throwable {

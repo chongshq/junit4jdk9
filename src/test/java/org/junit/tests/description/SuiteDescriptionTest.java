@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 public class SuiteDescriptionTest {
     Description childless = Description.createSuiteDescription("a");

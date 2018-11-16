@@ -10,8 +10,8 @@ import junit.framework.TestResult;
 import junit.framework.TestSuite;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.Suite;
 
 public class JUnit4TestAdapterTest {

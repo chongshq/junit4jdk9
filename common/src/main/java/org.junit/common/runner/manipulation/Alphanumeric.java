@@ -1,8 +1,8 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 import java.util.Comparator;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 /**
  * A sorter that orders tests alphanumerically by test name.
@@ -15,7 +15,7 @@ public final class Alphanumeric extends Sorter implements Ordering.Factory {
         super(COMPARATOR);
     }
 
-    public Ordering create(Context context) {
+    public Ordering create(Ordering.Context context) {
         return this;
     }
 

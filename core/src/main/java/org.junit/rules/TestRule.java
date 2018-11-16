@@ -1,7 +1,7 @@
 package org.junit.rules;
 
 import org.junit.common.*;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.Statement;
 
 /**

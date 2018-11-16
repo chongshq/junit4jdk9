@@ -1,5 +1,7 @@
 package org.junit.runner;
 
+import org.junit.common.runner.Description;
+
 public final class FilterFactoryParams {
     private final Description topLevelDescription;
     private final String args;

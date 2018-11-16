@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
@@ -7,18 +7,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import org.junit.runner.Description;
-import org.junit.runner.OrderWith;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.OrderWith;
 
-/**
- * Reorders tests. An {@code Ordering} can reverse the order of tests, sort the
- * order or even shuffle the order.
- *
- * <p>In general you will not need to use a <code>Ordering</code> directly.
- * Instead, use {@link org.junit.runner.Request#orderWith(Ordering)}.
- *
- * @since 4.13
- */
+
 public abstract class Ordering {
     private static final String CONSTRUCTOR_ERROR_FORMAT
             = "Ordering class %s should have a public constructor with signature "

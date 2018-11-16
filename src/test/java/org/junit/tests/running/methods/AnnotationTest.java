@@ -20,10 +20,10 @@ import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.rules.ExternalResource;
 import org.junit.rules.TestRule;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 public class AnnotationTest extends TestCase {

@@ -1,12 +1,14 @@
 package org.junit.runner;
 
 import junit.runner.Version;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.Runner;
 import org.junit.internal.JUnitSystem;
 import org.junit.internal.RealSystem;
 import org.junit.internal.TextListener;
 import org.junit.internal.runners.JUnit38ClassRunner;
-import org.junit.runner.notification.RunListener;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunNotifier;
 
 /**
  * <code>JUnitCore</code> is a facade for running tests. It supports running JUnit 4 tests,
@@ -16,8 +18,8 @@ import org.junit.runner.notification.RunNotifier;
  * If you want to add special listeners,
  * create an instance of {@link org.junit.runner.JUnitCore} first and use it to run the tests.
  *
- * @see org.junit.runner.Result
- * @see org.junit.runner.notification.RunListener
+ * @see Result
+ * @see RunListener
  * @see org.junit.runner.Request
  * @since 4.0
  */
@@ -146,7 +148,7 @@ public class JUnitCore {
      * Add a listener to be notified as the tests run.
      *
      * @param listener the listener to add
-     * @see org.junit.runner.notification.RunListener
+     * @see RunListener
      */
     public void addListener(RunListener listener) {
         notifier.addListener(listener);

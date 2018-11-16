@@ -4,9 +4,9 @@ import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.model.InvalidTestClassError;
 
 import java.util.ArrayList;

@@ -2,9 +2,9 @@ package org.junit.internal.requests;
 
 import org.junit.internal.runners.ErrorReportingRunner;
 import org.junit.runner.Request;
-import org.junit.runner.Runner;
+import org.junit.common.runner.Runner;
 import org.junit.runner.manipulation.Filter;
-import org.junit.runner.manipulation.NoTestsRemainException;
+import org.junit.common.runner.manipulation.NoTestsRemainException;
 
 /**
  * A filtered {@link Request}.

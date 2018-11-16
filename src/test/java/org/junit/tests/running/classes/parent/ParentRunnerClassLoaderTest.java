@@ -2,8 +2,8 @@ package org.junit.tests.running.classes.parent;
 
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.ParentRunner;
 import org.junit.runners.model.FrameworkMethod;
@@ -26,7 +26,7 @@ public class ParentRunnerClassLoaderTest {
         Class<?> usedClass = (Class<?>) fieldWithReference.get(null);
 
         assertEquals("JUnitRunner can be located in own classLoader, so, " +
-                        "Class.forName org.junit.runner.Description.getTestClass can not see " +
+                        "Class.forName org.junit.common.runner.Description.getTestClass can not see " +
                         "in current classloader by execute Class.forName",
                 testClassWithOwnClassLoader, usedClass
         );

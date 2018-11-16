@@ -1,11 +1,14 @@
-package org.junit.runner;
+package org.junit.common.runner;
 
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Describable;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.notification.RunNotifier;
 
 /**
- * A <code>Runner</code> runs tests and notifies a {@link org.junit.runner.notification.RunNotifier}
+ * A <code>Runner</code> runs tests and notifies a {@link org.junit.common.runner.notification.RunNotifier}
  * of significant events as it does so. You will need to subclass <code>Runner</code>
- * when using {@link org.junit.runner.RunWith} to invoke a custom runner. When creating
+ * when using {@link RunWith} to invoke a custom runner. When creating
  * a custom runner, in addition to implementing the abstract methods here you must
  * also provide a constructor that takes as an argument the {@link Class} containing
  * the tests.
@@ -15,14 +18,14 @@ import org.junit.runner.notification.RunNotifier;
  * will retain no reference to the test case instances, generally making them
  * available for garbage collection.
  *
- * @see org.junit.runner.Description
- * @see org.junit.runner.RunWith
+ * @see Description
+ * @see RunWith
  * @since 4.0
  */
 public abstract class Runner implements Describable {
     /*
      * (non-Javadoc)
-     * @see org.junit.runner.Describable#getDescription()
+     * @see org.junit.common.runner.Describable#getDescription()
      */
     public abstract Description getDescription();
 

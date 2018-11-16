@@ -11,10 +11,10 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.junit.runner.Description;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunListener;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
 
 /**
  * Stores a subset of the history of each test:

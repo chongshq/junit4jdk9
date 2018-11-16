@@ -2,10 +2,10 @@ package org.junit.tests.validation;
 
 import org.junit.Assert;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
 
 public class FailedConstructionTest {
     public static class CantConstruct {

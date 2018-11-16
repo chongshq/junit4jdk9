@@ -1,6 +1,6 @@
 package org.junit.runners.parameterized;
 
-import org.junit.runner.Runner;
+import org.junit.common.runner.Runner;
 import org.junit.runners.model.InitializationError;
 
 /**

@@ -14,7 +14,7 @@ import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Rule;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 

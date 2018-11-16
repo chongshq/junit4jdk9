@@ -1,6 +1,6 @@
 package org.junit.tests.manipulation;
 
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.manipulation.Ordering;
 
 /**
  * An ordering that orders tests alphanumerically by test name.

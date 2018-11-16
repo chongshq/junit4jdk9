@@ -10,7 +10,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.AllTests;
 
 public class AllTestsTest {

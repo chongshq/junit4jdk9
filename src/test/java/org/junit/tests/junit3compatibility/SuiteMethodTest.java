@@ -10,10 +10,10 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.common.Ignore;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.runner.Result;
+import org.junit.common.runner.Result;
 
 public class SuiteMethodTest {
     public static boolean wasRun;

@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 /**
  * Thrown when an ordering does something invalid (like remove or add children)

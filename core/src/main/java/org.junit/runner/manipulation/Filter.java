@@ -1,6 +1,9 @@
 package org.junit.runner.manipulation;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.Runner;
+import org.junit.common.runner.manipulation.NoTestsRemainException;
 import org.junit.runner.Request;
 
 /**
@@ -9,8 +12,8 @@ import org.junit.runner.Request;
  * If you want to filter the tests to be run, extend <code>Filter</code> and apply an instance of
  * your filter to the {@link org.junit.runner.Request} before running it (see
  * {@link org.junit.runner.JUnitCore#run(Request)}. Alternatively, apply a <code>Filter</code> to
- * a {@link org.junit.runner.Runner} before running tests (for example, in conjunction with
- * {@link org.junit.runner.RunWith}.
+ * a {@link Runner} before running tests (for example, in conjunction with
+ * {@link RunWith}.
  *
  * @since 4.0
  */
@@ -83,7 +86,7 @@ public abstract class Filter {
     public abstract String describe();
 
     /**
-     * Invoke with a {@link org.junit.runner.Runner} to cause all tests it intends to run
+     * Invoke with a {@link Runner} to cause all tests it intends to run
      * to first be checked with the filter. Only those that pass the filter will be run.
      *
      * @param child the runner to be filtered by the receiver

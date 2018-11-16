@@ -3,8 +3,8 @@ package org.junit.tests.listening;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.runner.Request;
-import org.junit.runner.notification.RunNotifier;
-import org.junit.runner.notification.StoppedByUserException;
+import org.junit.common.runner.notification.RunNotifier;
+import org.junit.common.runner.notification.StoppedByUserException;
 
 public class UserStopTest {
     private RunNotifier fNotifier;

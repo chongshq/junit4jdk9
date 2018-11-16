@@ -10,10 +10,10 @@ import junit.framework.TestListener;
 import junit.framework.TestResult;
 import org.junit.common.Before;
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.Runner;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 public class InitializationErrorForwardCompatibilityTest {

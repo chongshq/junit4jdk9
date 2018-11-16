@@ -12,7 +12,7 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.experimental.theories.internal.ParameterizedAssertionError;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 
 @RunWith(Theories.class)
 public class ParameterizedAssertionErrorTest {

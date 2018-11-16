@@ -3,17 +3,17 @@ package junit.framework;
 import java.util.List;
 
 import org.junit.common.Ignore;
-import org.junit.runner.Describable;
-import org.junit.runner.Description;
+import org.junit.common.runner.Describable;
+import org.junit.common.runner.Description;
 import org.junit.runner.Request;
-import org.junit.runner.Runner;
+import org.junit.common.runner.Runner;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.Filterable;
-import org.junit.runner.manipulation.Orderer;
-import org.junit.runner.manipulation.InvalidOrderingException;
-import org.junit.runner.manipulation.NoTestsRemainException;
-import org.junit.runner.manipulation.Orderable;
-import org.junit.runner.manipulation.Sorter;
+import org.junit.common.runner.manipulation.Orderer;
+import org.junit.common.runner.manipulation.InvalidOrderingException;
+import org.junit.common.runner.manipulation.NoTestsRemainException;
+import org.junit.common.runner.manipulation.Orderable;
+import org.junit.common.runner.manipulation.Sorter;
 
 /**
  * The JUnit4TestAdapter enables running JUnit-4-style tests using a JUnit-3-style test runner.

@@ -8,7 +8,7 @@ import org.junit.common.BeforeClass;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.runner.Result;
+import org.junit.common.runner.Result;
 
 public class ValidationTest {
     public static class WrongBeforeClass {

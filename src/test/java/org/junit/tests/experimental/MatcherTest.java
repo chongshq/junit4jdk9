@@ -13,9 +13,9 @@ import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.notification.Failure;
 
 @RunWith(Theories.class)
 public class MatcherTest {

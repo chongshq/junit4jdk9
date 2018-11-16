@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 /**
  * Thrown when a filter removes all tests from a runner.

@@ -8,15 +8,15 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import org.junit.runner.Description;
-import org.junit.runner.Runner;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Runner;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.Filterable;
-import org.junit.runner.manipulation.NoTestsRemainException;
-import org.junit.runner.manipulation.Sortable;
-import org.junit.runner.manipulation.Sorter;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.manipulation.NoTestsRemainException;
+import org.junit.common.runner.manipulation.Sortable;
+import org.junit.common.runner.manipulation.Sorter;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 /**

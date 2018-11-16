@@ -1,4 +1,4 @@
-package org.junit.runner;
+package org.junit.common.runner;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

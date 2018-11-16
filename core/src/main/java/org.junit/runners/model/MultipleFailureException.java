@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.common.TestCouldNotBeSkippedException;
 import org.junit.common.internal.AssumptionViolatedException;
-import org.junit.util.internal.Throwables;
+import org.junit.common.internal.Throwables;
 
 /**
  * Collects multiple {@code Throwable}s into one exception.

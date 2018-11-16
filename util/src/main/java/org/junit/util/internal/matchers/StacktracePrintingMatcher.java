@@ -4,7 +4,7 @@ import org.hamcrest.Description;
 import org.hamcrest.Factory;
 import org.hamcrest.Matcher;
 
-import org.junit.util.internal.Throwables;
+import org.junit.common.internal.Throwables;
 
 /**
  * A matcher that delegates to throwableMatcher and in addition appends the

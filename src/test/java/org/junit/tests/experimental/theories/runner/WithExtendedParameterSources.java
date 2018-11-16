@@ -15,7 +15,7 @@ import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.experimental.theories.suppliers.TestedOn;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 
 public class WithExtendedParameterSources {
     @RunWith(Theories.class)

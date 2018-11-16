@@ -1,6 +1,6 @@
 package junit.framework;
 
-import org.junit.util.internal.Throwables;
+import org.junit.common.internal.Throwables;
 
 
 /**

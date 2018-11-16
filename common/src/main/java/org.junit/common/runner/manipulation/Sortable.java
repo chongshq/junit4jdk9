@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 /**
  * Interface for runners that allow sorting of tests. By sorting tests based on when they last failed, most recently

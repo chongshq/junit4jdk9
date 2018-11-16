@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import org.junit.function.ThrowingRunnable;
+import org.junit.common.function.ThrowingRunnable;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.hamcrest.Matcher;
 import org.junit.runners.model.MultipleFailureException;

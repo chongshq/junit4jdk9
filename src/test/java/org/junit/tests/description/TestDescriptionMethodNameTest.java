@@ -1,8 +1,8 @@
 package org.junit.tests.description;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;

@@ -1,7 +1,7 @@
 package org.junit.internal.builders;
 
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.Runner;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;
 
@@ -65,7 +65,7 @@ import java.lang.reflect.Modifier;
  * </ul>
  *
  * @see org.junit.runners.model.RunnerBuilder
- * @see org.junit.runner.RunWith
+ * @see RunWith
  * @since 4.0
  */
 public class AnnotatedBuilder extends RunnerBuilder {

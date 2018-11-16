@@ -12,6 +12,8 @@ import org.hamcrest.StringDescription;
 import org.junit.common.AssumptionViolatedException;
 import org.junit.common.Assume;
 import org.junit.common.Rule;
+import org.junit.common.function.ThrowingRunnable;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.Statement;
 
 /**
@@ -109,7 +111,7 @@ import org.junit.runners.model.Statement;
  * "Test doesn't throw an instance of foo.".
  *
  * @deprecated Since 4.13
- * {@link org.junit.Assert#assertThrows(Class, org.junit.function.ThrowingRunnable)
+ * {@link org.junit.Assert#assertThrows(Class, ThrowingRunnable)
  * Assert.assertThrows} can be used to verify that your code throws a specific
  * exception.
  * @since 4.7
@@ -166,7 +168,7 @@ public class ExpectedException implements TestRule {
     }
 
     public Statement apply(Statement base,
-            org.junit.runner.Description description) {
+            Description description) {
         return new ExpectedExceptionStatement(base);
     }
 

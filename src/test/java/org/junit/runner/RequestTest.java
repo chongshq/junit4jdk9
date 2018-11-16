@@ -5,6 +5,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.rules.EventCollector.hasSingleFailureWithMessage;
 
 import org.junit.common.Test;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Runner;
 import org.junit.rules.EventCollector;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;

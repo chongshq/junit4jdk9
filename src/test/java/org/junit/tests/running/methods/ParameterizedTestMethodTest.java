@@ -13,7 +13,7 @@ import org.junit.common.AfterClass;
 import org.junit.common.Before;
 import org.junit.common.BeforeClass;
 import org.junit.common.Test;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;

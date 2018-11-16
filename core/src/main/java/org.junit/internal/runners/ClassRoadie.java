@@ -5,9 +5,9 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 import org.junit.common.internal.AssumptionViolatedException;
-import org.junit.runner.Description;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 /**

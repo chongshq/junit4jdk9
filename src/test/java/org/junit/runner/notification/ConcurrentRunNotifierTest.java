@@ -1,7 +1,10 @@
 package org.junit.runner.notification;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunNotifier;
 
 import java.util.Random;
 import java.util.concurrent.Callable;

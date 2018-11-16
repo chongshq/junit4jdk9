@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.common.ClassRule;
 import org.junit.common.Rule;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.Statement;
 
 /**

@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 /**
  * Orders tests.

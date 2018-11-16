@@ -1,7 +1,7 @@
 package junit.framework;
 
-import org.junit.runner.Describable;
-import org.junit.runner.Description;
+import org.junit.common.runner.Describable;
+import org.junit.common.runner.Description;
 
 public class JUnit4TestCaseFacade implements Test, Describable {
     private final Description fDescription;

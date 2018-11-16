@@ -7,10 +7,10 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.RunWith;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;

@@ -16,7 +16,7 @@ import java.util.List;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.rules.ExpectedException;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.model.TestClass;
 

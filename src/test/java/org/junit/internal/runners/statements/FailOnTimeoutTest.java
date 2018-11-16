@@ -19,7 +19,7 @@ import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.common.Test;
-import org.junit.function.ThrowingRunnable;
+import org.junit.common.function.ThrowingRunnable;
 import org.junit.runners.model.Statement;
 import org.junit.runners.model.TestTimedOutException;
 

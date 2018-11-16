@@ -20,8 +20,8 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.RunWith;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.notification.Failure;
 
 public class WithDataPointMethod {
     @RunWith(Theories.class)

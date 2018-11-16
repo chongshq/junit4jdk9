@@ -16,7 +16,7 @@ import org.junit.experimental.theories.PotentialAssignment;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.rules.ExpectedException;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.TestClass;
 

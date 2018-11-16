@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.common.Test;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 

@@ -7,7 +7,7 @@ import org.junit.common.Before;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 
 @RunWith(Enclosed.class)
 public class NameRulesTest {

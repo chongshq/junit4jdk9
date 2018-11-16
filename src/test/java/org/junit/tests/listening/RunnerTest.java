@@ -5,9 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 import junit.framework.TestCase;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunListener;
 
 public class RunnerTest {
 

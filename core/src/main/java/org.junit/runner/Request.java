@@ -3,6 +3,8 @@ package org.junit.runner;
 import java.util.Comparator;
 
 import org.junit.common.Test;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Runner;
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.internal.requests.ClassRequest;
 import org.junit.internal.requests.FilterRequest;
@@ -10,7 +12,7 @@ import org.junit.internal.requests.OrderingRequest;
 import org.junit.internal.requests.SortingRequest;
 import org.junit.internal.runners.ErrorReportingRunner;
 import org.junit.runner.manipulation.Filter;
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.manipulation.Ordering;
 import org.junit.runners.model.InitializationError;
 
 /**
@@ -21,8 +23,8 @@ import org.junit.runners.model.InitializationError;
  * specification than just the classes.
  *
  * <p>The flow when JUnit runs tests is that a <code>Request</code> specifies some tests to be run -&gt;
- * a {@link org.junit.runner.Runner} is created for each class implied by the <code>Request</code> -&gt;
- * the {@link org.junit.runner.Runner} returns a detailed {@link org.junit.runner.Description}
+ * a {@link Runner} is created for each class implied by the <code>Request</code> -&gt;
+ * the {@link Runner} returns a detailed {@link Description}
  * which is a tree structure of the tests to be run.
  *
  * @since 4.0

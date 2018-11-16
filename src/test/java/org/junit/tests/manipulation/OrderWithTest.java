@@ -5,14 +5,14 @@ import junit.framework.JUnit4TestAdapter;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.OrderWith;
+import org.junit.common.runner.OrderWith;
 import org.junit.runner.Request;
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
-import org.junit.runner.manipulation.Alphanumeric;
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.Runner;
+import org.junit.common.runner.manipulation.Alphanumeric;
+import org.junit.common.runner.notification.RunNotifier;
 
 @RunWith(Enclosed.class)
 public class OrderWithTest {

@@ -1,7 +1,7 @@
 package org.junit.rules;
 
 import org.junit.common.AssumptionViolatedException;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 class LoggingTestWatcher extends TestWatcher {
     private final StringBuilder log;

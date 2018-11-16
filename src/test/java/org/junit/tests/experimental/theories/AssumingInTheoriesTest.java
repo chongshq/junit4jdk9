@@ -7,8 +7,8 @@ import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.runner.Result;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.model.InitializationError;
 
 @RunWith(Theories.class)

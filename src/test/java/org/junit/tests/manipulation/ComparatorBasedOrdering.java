@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.junit.runner.Description;
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.manipulation.Ordering;
 
 /**
  * An ordering that internally uses a {@link Comparator}.

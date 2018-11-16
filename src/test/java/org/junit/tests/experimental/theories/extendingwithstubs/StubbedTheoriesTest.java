@@ -4,7 +4,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.common.Assume.assumeThat;
 
 import org.junit.experimental.theories.Theory;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 
 @RunWith(StubbedTheories.class)
 public class StubbedTheoriesTest {

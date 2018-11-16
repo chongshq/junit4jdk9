@@ -2,7 +2,7 @@ package org.junit.tests.manipulation;
 
 import static java.util.Collections.reverseOrder;
 
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.manipulation.Ordering;
 
 /**
  * An ordering that orders tests reverse alphanumerically by test name.

@@ -1,6 +1,7 @@
 package org.junit.runner;
 
 
+import org.junit.common.runner.RunWith;
 import org.junit.runner.notification.AllNotificationTests;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

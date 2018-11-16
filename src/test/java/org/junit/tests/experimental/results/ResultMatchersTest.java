@@ -4,8 +4,8 @@ import org.junit.common.Test;
 import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.results.ResultMatchers;
 import org.junit.experimental.theories.Theory;
-import org.junit.runner.Description;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.notification.Failure;
 
 import java.util.ArrayList;
 import java.util.Collections;

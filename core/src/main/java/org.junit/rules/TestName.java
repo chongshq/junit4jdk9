@@ -1,6 +1,6 @@
 package org.junit.rules;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 /**
  * The TestName Rule makes the current test name available inside test methods:

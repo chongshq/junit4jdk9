@@ -1,4 +1,4 @@
-package org.junit.runner;
+package org.junit.common.runner;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -6,7 +6,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.manipulation.Ordering;
 
 /**
  * When a test class is annotated with <code>&#064;OrderWith</code> or extends a class annotated

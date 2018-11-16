@@ -20,7 +20,7 @@ import junit.framework.Test;
 import junit.framework.TestListener;
 import junit.framework.TestSuite;
 
-import org.junit.util.internal.Throwables;
+import org.junit.common.internal.Throwables;
 
 /**
  * Base class for all test runners.

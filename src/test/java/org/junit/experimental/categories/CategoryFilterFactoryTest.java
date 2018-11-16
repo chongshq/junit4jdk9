@@ -2,7 +2,7 @@ package org.junit.experimental.categories;
 
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.runner.Description.createSuiteDescription;
+import static org.junit.common.runner.Description.createSuiteDescription;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.TestName;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.FilterFactory;
 import org.junit.runner.FilterFactoryParams;
 import org.junit.runner.manipulation.Filter;

@@ -1,9 +1,11 @@
 package org.junit.runners.model;
 
+import org.junit.common.runner.Runner;
+
 import java.util.List;
 
 /**
- * Thrown by {@link org.junit.runner.Runner}s in case the class under test is not valid.
+ * Thrown by {@link Runner}s in case the class under test is not valid.
  * <p>
  * Its message conveniently lists all of the validation errors.
  *

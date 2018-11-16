@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 
 import org.junit.common.Ignore;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.Request;
 
 public class AnnotatedDescriptionTest {

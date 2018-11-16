@@ -1,4 +1,4 @@
-package org.junit.runner.manipulation;
+package org.junit.common.runner.manipulation;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,15 +6,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
-/**
- * A <code>Sorter</code> orders tests. In general you will not need
- * to use a <code>Sorter</code> directly. Instead, use
- * {@link org.junit.runner.Request#sortWith(Comparator)}.
- *
- * @since 4.0
- */
 public class Sorter extends Ordering implements Comparator<Description> {
     /**
      * NULL is a <code>Sorter</code> that leaves elements in an undefined order

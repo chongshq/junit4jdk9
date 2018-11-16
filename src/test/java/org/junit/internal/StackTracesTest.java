@@ -29,8 +29,8 @@ import org.junit.common.Test;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 
@@ -387,7 +387,7 @@ public class StackTracesTest {
     public static class ThrowingTestRule implements TestRule {
 
         public Statement apply(
-                Statement base, org.junit.runner.Description description) {
+                Statement base, org.junit.common.runner.Description description) {
             new FakeClassUnderTest().throwsExceptionWithoutCause();
             return base;
         }

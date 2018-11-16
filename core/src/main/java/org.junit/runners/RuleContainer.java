@@ -9,7 +9,7 @@ import java.util.List;
 import org.junit.common.Rule;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 

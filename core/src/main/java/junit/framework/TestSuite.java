@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Vector;
 
 import org.junit.common.internal.MethodSorter;
-import org.junit.util.internal.Throwables;
+import org.junit.common.internal.Throwables;
 
 /**
  * A <code>TestSuite</code> is a <code>Composite</code> of Tests.

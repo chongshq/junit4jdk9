@@ -13,8 +13,8 @@ import junit.tests.framework.Success;
 import org.junit.common.Test;
 import org.junit.common.Assume;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
 import org.junit.tests.running.methods.AnnotationTest;
 
 public class ResultTest extends TestCase {

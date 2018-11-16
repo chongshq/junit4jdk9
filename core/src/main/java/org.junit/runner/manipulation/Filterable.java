@@ -1,5 +1,7 @@
 package org.junit.runner.manipulation;
 
+import org.junit.common.runner.manipulation.NoTestsRemainException;
+
 /**
  * Runners that allow filtering should implement this interface. Implement {@link #filter(Filter)}
  * to remove tests that don't pass the filter.

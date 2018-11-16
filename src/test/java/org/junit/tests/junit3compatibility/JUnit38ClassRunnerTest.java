@@ -15,13 +15,13 @@ import junit.framework.TestSuite;
 import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunListener;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
 import org.junit.runner.manipulation.Filter;
-import org.junit.runner.manipulation.NoTestsRemainException;
+import org.junit.common.runner.manipulation.NoTestsRemainException;
 
 public class JUnit38ClassRunnerTest {
     public static class MyTest extends TestCase {

@@ -22,10 +22,10 @@ import org.junit.common.Test;
 import org.junit.common.TestCouldNotBeSkippedException;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.internal.runners.statements.Fail;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
 import org.junit.runners.model.MultipleFailureException;
 import org.junit.runners.model.Statement;
 

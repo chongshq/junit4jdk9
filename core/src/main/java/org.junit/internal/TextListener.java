@@ -4,10 +4,10 @@ import java.io.PrintStream;
 import java.text.NumberFormat;
 import java.util.List;
 
-import org.junit.runner.Description;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-import org.junit.runner.notification.RunListener;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
+import org.junit.common.runner.notification.RunListener;
 
 public class TextListener extends RunListener {
 

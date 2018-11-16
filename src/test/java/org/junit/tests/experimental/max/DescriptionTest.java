@@ -12,7 +12,7 @@ import java.net.URLClassLoader;
 
 import org.junit.common.Ignore;
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 
 public class DescriptionTest {
 
@@ -40,7 +40,7 @@ public class DescriptionTest {
     public void parseClassAndMethodNoAnnotations() throws Exception {
         Description description = Description.createTestDescription(Description.class, "aTestMethod");
 
-        assertThat(description.getClassName(), equalTo("org.junit.runner.Description"));
+        assertThat(description.getClassName(), equalTo("org.junit.common.runner.Description"));
         assertThat(description.getMethodName(), equalTo("aTestMethod"));
         assertThat(description.getAnnotations().size(), equalTo(0));
     }
@@ -52,7 +52,7 @@ public class DescriptionTest {
 
         Description description = Description.createTestDescription(Description.class, "aTestMethod", annotations);
 
-        assertThat(description.getClassName(), equalTo("org.junit.runner.Description"));
+        assertThat(description.getClassName(), equalTo("org.junit.common.runner.Description"));
         assertThat(description.getMethodName(), equalTo("aTestMethod"));
         assertThat(description.getAnnotations().size(), equalTo(1));
     }

@@ -1,4 +1,4 @@
-package org.junit.runner.notification;
+package org.junit.common.runner.notification;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -8,49 +8,9 @@ import java.lang.annotation.Target;
 
 import org.junit.common.AssumptionViolatedException;
 import org.junit.common.Ignore;
-import org.junit.runner.Description;
-import org.junit.runner.Result;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Result;
 
-/**
- * Register an instance of this class with {@link RunNotifier} to be notified
- * of events that occur during a test run. All of the methods in this class
- * are abstract and have no implementation; override one or more methods to
- * receive events.
- * <p>
- * For example, suppose you have a <code>Cowbell</code>
- * class that you want to make a noise whenever a test fails. You could write:
- * <pre>
- * public class RingingListener extends RunListener {
- *    public void testFailure(Failure failure) {
- *       Cowbell.ring();
- *    }
- * }
- * </pre>
- * <p>
- * To invoke your listener, you need to run your tests through <code>JUnitCore</code>.
- * <pre>
- * public void main(String... args) {
- *    JUnitCore core= new JUnitCore();
- *    core.addListener(new RingingListener());
- *    core.run(MyTestClass.class);
- * }
- * </pre>
- * <p>
- * If a listener throws an exception for a test event, the other listeners will
- * have their {@link RunListener#testFailure(Failure)} called with a {@code Description}
- * of {@link Description#TEST_MECHANISM} to indicate the failure.
- * <p>
- * By default, JUnit will synchronize calls to your listener. If your listener
- * is thread-safe and you want to allow JUnit to call your listener from
- * multiple threads when tests are run in parallel, you can annotate your
- * test class with {@link RunListener.ThreadSafe}.
- * <p>
- * Listener methods will be called from the same thread as is running
- * the test, unless otherwise indicated by the method Javadoc
- *
- * @see org.junit.runner.JUnitCore
- * @since 4.0
- */
 public class RunListener {
 
     /**

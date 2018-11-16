@@ -1,6 +1,6 @@
 package org.junit.rules;
 
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runners.model.Statement;
 
 class LoggingTestRule implements TestRule {

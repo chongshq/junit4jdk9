@@ -16,9 +16,9 @@ import java.util.List;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.util.internal.Throwables;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
+import org.junit.common.runner.Result;
 
 public class RuleChainTest {
     private static final List<String> LOG = new ArrayList<String>();

@@ -3,9 +3,9 @@ package org.junit.tests.listening;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.common.Test;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.notification.RunListener;
+import org.junit.common.runner.notification.RunListener;
 
 public class ListenerTest {
     static private String log;

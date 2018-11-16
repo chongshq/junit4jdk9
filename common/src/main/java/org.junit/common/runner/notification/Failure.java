@@ -1,14 +1,14 @@
-package org.junit.runner.notification;
+package org.junit.common.runner.notification;
 
 import java.io.Serializable;
 
 import org.junit.common.BeforeClass;
-import org.junit.util.internal.Throwables;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
+import org.junit.common.internal.Throwables;
 
 /**
  * A <code>Failure</code> holds a description of the failed test and the
- * exception that was thrown while running it. In most cases the {@link org.junit.runner.Description}
+ * exception that was thrown while running it. In most cases the {@link Description}
  * will be of a single test. However, if problems are encountered while constructing the
  * test (for example, if a {@link BeforeClass} method is not static), it may describe
  * something other than a single test.
@@ -29,7 +29,7 @@ public class Failure implements Serializable {
     /**
      * Constructs a <code>Failure</code> with the given description and exception.
      *
-     * @param description a {@link org.junit.runner.Description} of the test that failed
+     * @param description a {@link Description} of the test that failed
      * @param thrownException the exception that was thrown while running the test
      */
     public Failure(Description description, Throwable thrownException) {

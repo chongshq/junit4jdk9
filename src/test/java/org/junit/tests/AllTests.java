@@ -6,7 +6,7 @@ import org.junit.AssumptionViolatedExceptionTest;
 import org.junit.internal.AllInternalTests;
 import org.junit.rules.AllRulesTests;
 import org.junit.runner.AllRunnerTests;
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.AllRunnersTests;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;

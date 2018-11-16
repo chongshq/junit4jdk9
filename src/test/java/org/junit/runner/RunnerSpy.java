@@ -1,6 +1,8 @@
 package org.junit.runner;
 
-import org.junit.runner.notification.RunNotifier;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.Runner;
+import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.model.RunnerBuilder;
 
 public class RunnerSpy extends Runner {

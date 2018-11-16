@@ -22,7 +22,7 @@ import org.junit.common.Test;
 import org.junit.rules.TestRule;
 import org.junit.rules.Timeout;
 import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
+import org.junit.common.runner.Result;
 
 public class TimeoutTest {
 

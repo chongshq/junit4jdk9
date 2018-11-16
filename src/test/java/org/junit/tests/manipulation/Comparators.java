@@ -2,8 +2,8 @@ package org.junit.tests.manipulation;
 
 import java.util.Comparator;
 
-import org.junit.runner.Description;
-import org.junit.runner.manipulation.Alphanumeric;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.manipulation.Alphanumeric;
 
 /**
  * Factory and utility metods for creating {@link Comparator} instances for tests.

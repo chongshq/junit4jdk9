@@ -6,9 +6,9 @@ import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.runner.Result;
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.RunWith;
+import org.junit.common.runner.Runner;
 
 public class EnclosedTest {
     @RunWith(Enclosed.class)

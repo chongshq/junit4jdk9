@@ -1,5 +1,6 @@
 package org.junit.runner;
 
+import org.junit.common.runner.Description;
 import org.junit.internal.Classes;
 import org.junit.runner.FilterFactory.FilterNotCreatedException;
 import org.junit.runner.manipulation.Filter;

@@ -1,6 +1,6 @@
 package org.junit.tests.running;
 
-import org.junit.runner.RunWith;
+import org.junit.common.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 import org.junit.tests.running.classes.AllClassesTests;

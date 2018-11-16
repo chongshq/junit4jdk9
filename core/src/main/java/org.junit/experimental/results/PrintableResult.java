@@ -7,8 +7,8 @@ import java.util.List;
 import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
+import org.junit.common.runner.Result;
+import org.junit.common.runner.notification.Failure;
 
 /**
  * A test result that prints nicely in error messages.

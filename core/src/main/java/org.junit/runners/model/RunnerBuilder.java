@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Set;
 
 import org.junit.internal.runners.ErrorReportingRunner;
-import org.junit.runner.Description;
-import org.junit.runner.OrderWith;
-import org.junit.runner.Runner;
-import org.junit.runner.manipulation.InvalidOrderingException;
-import org.junit.runner.manipulation.Ordering;
+import org.junit.common.runner.Description;
+import org.junit.common.runner.OrderWith;
+import org.junit.common.runner.Runner;
+import org.junit.common.runner.manipulation.InvalidOrderingException;
+import org.junit.common.runner.manipulation.Ordering;
 
 /**
  * A RunnerBuilder is a strategy for constructing runners for classes.

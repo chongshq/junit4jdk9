@@ -10,7 +10,7 @@ import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.max.MaxCore;
-import org.junit.runner.Description;
+import org.junit.common.runner.Description;
 import org.junit.runner.Request;
 
 public class JUnit38SortingTest {

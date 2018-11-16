@@ -1,4 +1,4 @@
-package org.junit.util.internal;
+package org.junit.common.internal;
 
 import java.io.BufferedReader;
 import java.io.IOException;
