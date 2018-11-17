@@ -8,6 +8,7 @@ import static org.junit.common.Assume.assumeThat;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
+import org.junit.common.runner.FilterFactoryParams;
 import org.junit.common.runner.RunWith;
 import org.junit.experimental.categories.ExcludeCategories;
 import org.junit.rules.ExpectedException;

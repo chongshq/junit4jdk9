@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.junit.internal.Classes;
 import org.junit.runner.FilterFactory;
-import org.junit.runner.FilterFactoryParams;
+import org.junit.common.runner.FilterFactoryParams;
 import org.junit.runner.manipulation.Filter;
 
 /**

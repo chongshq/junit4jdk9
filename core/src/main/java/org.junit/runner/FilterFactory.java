@@ -1,5 +1,6 @@
 package org.junit.runner;
 
+import org.junit.common.runner.FilterFactoryParams;
 import org.junit.runner.manipulation.Filter;
 
 /**

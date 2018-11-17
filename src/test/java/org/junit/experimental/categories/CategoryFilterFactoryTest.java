@@ -12,7 +12,7 @@ import org.junit.rules.ExpectedException;
 import org.junit.rules.TestName;
 import org.junit.common.runner.Description;
 import org.junit.runner.FilterFactory;
-import org.junit.runner.FilterFactoryParams;
+import org.junit.common.runner.FilterFactoryParams;
 import org.junit.runner.manipulation.Filter;
 
 public class CategoryFilterFactoryTest {
