@@ -7,4 +7,5 @@ module common {
     exports org.junit.common.runner;
     exports org.junit.common.runner.manipulation;
     exports org.junit.common.runner.notification;
+    
 }
