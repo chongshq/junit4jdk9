@@ -1,4 +1,4 @@
-package junit.framework;
+package junit.j3.framework;
 
 /**
  * A Listener for test progress

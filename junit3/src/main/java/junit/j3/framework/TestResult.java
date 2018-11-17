@@ -1,4 +1,4 @@
-package junit.framework;
+package junit.j3.framework;
 
 import java.util.ArrayList;
 import java.util.Collections;

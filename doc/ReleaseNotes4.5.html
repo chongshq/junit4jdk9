@@ -312,9 +312,9 @@ remain as deprecated.</p></li>
 <li><p>Bug fix (1739095): Filters and Sorters work correctly on test
 classes that contain a <code>suite</code> method like:</p>
 
-<p>public static junit.framework.Test suite() {
-  return new JUnit4TestAdapter(MyTest.class);
-}</p></li>
+<p>public static junit.j3.framework.Test suite() {
+    return new JUnit4TestAdapter(MyTest.class);
+    }</p></li>
 <li><p>Bug fix (1745048): @After methods are now correctly called 
 after a test method times out.</p></li>
 </ul>

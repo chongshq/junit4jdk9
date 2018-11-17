@@ -9,7 +9,7 @@ import org.junit.internal.runners.SuiteMethod;
  * <pre>
  * &#064;RunWith(AllTests.class)
  * public class ProductTests {
- *    public static junit.framework.Test suite() {
+ *    public static junit.j3.framework.Test suite() {
  *       ...
  *    }
  * }

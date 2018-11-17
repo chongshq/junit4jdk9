@@ -102,7 +102,7 @@ You make your JUnit 4 test classes accessible to a TestRunner designed to work w
 declare a static method _suite_
 that returns a test.
 
-    public static junit.framework.Test suite() {
+    public static junit.j3.framework.Test suite() {
         return new JUnit4TestAdapter(Example.class);
     }
 

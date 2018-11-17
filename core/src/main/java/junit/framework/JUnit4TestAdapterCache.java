@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+import junit.j3.framework.Test;
+import junit.j3.framework.TestResult;
+import junit.j3.framework.TestSuite;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.notification.Failure;
 import org.junit.common.runner.notification.RunListener;

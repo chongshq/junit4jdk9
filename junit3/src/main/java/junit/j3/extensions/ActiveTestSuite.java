@@ -1,9 +1,9 @@
-package junit.extensions;
+package junit.j3.extensions;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestResult;
-import junit.framework.TestSuite;
+import junit.j3.framework.Test;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestResult;
+import junit.j3.framework.TestSuite;
 
 /**
  * A TestSuite for active Tests. It runs each

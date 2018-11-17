@@ -387,7 +387,7 @@ public class SimpleTest {</pre>
       <code>JUnit4TestAdapter</code> class to create a suite
       containing all of your test methods:
     </p>
-    <pre class="prettyprint linenums">    public static junit.framework.Test suite() {
+    <pre class="prettyprint linenums">    public static junit.j3.framework.Test suite() {
         return new junit.framework.JUnit4TestAdapter(SimpleTest.class);
     }</pre>
       </li>
@@ -1721,7 +1721,7 @@ end</pre>
             <answer>    <p>
       Start the <code>TestRunner</code> under the debugger and
       configure the debugger so that it catches
-      the <code>junit.framework.AssertionFailedError</code>.
+      the <code>junit.j3.framework.AssertionFailedError</code>.
     </p>
     <p>
       How you configure this depends on the debugger you prefer to

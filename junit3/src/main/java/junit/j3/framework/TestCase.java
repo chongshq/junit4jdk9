@@ -1,4 +1,4 @@
-package junit.framework;
+package junit.j3.framework;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -29,7 +29,7 @@ import java.lang.reflect.Modifier;
  *
  * For each test implement a method which interacts
  * with the fixture. Verify the expected results with assertions specified
- * by calling {@link junit.framework.Assert#assertTrue(String, boolean)} with a boolean.
+ * by calling {@link Assert#assertTrue(String, boolean)} with a boolean.
  * <pre>
  *    public void testAdd() {
  *       double result= fValue1 + fValue2;

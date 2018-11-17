@@ -1,5 +1,7 @@
 package junit.framework;
 
+import junit.j3.framework.Test;
+import junit.j3.framework.TestResult;
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;
 

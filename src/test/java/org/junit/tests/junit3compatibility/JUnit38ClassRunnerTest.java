@@ -88,7 +88,7 @@ public class JUnit38ClassRunnerTest {
         Result result = JUnitCore.runClasses(ClassWithInvalidMethod.class);
         Failure failure = result.getFailures().get(0);
         assertEquals("warning", failure.getDescription().getMethodName());
-        assertEquals("junit.framework.TestSuite$1", failure.getDescription().getClassName());
+        assertEquals("junit.j3.framework.TestSuite$1", failure.getDescription().getClassName());
     }
 
     @Retention(RetentionPolicy.RUNTIME)

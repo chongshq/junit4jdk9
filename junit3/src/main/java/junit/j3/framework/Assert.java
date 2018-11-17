@@ -1,10 +1,5 @@
-package junit.framework;
+package junit.j3.framework;
 
-/**
- * A set of assert methods.  Messages are only displayed when an assert fails.
- *
- * @deprecated Please use {@link org.junit.Assert} instead.
- */
 @Deprecated
 public class Assert {
     /**

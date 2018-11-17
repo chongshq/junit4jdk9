@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>core</artifactId>
+    <artifactId>junit3</artifactId>
 
     <dependencies>
         <dependency>
@@ -27,16 +27,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>common</artifactId>
-            <version>4.13-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>util</artifactId>
-            <version>4.13-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit3</artifactId>
             <version>4.13-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
-import junit.framework.Test;
+import junit.j3.framework.Test;
 
 /**
  * Runner for use with JUnit 3.8.x-style AllTests classes
@@ -13,7 +13,7 @@ import junit.framework.Test;
  * <pre>
  * &#064;RunWith(AllTests.class)
  * public class ProductTests {
- *    public static junit.framework.Test suite() {
+ *    public static junit.j3.framework.Test suite() {
  *       ...
  *    }
  * }

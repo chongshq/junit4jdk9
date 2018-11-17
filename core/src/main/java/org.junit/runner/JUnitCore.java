@@ -123,7 +123,7 @@ public class JUnitCore {
      * @param test the old-style test
      * @return a {@link Result} describing the details of the test run and the failed tests.
      */
-    public Result run(junit.framework.Test test) {
+    public Result run(junit.j3.framework.Test test) {
         return run(new JUnit38ClassRunner(test));
     }
 

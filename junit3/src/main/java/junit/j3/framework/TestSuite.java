@@ -1,4 +1,4 @@
-package junit.framework;
+package junit.j3.framework;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
