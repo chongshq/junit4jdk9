@@ -8,6 +8,9 @@ import static org.junit.common.Assume.assumeThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
 
 import org.hamcrest.Matcher;
+import org.junit.Assert;
+import org.junit.common.Assume;
+import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;

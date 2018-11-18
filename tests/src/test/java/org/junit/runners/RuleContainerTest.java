@@ -2,6 +2,7 @@ package org.junit.runners;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;

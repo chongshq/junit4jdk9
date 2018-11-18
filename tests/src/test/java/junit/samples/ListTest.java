@@ -3,9 +3,9 @@ package junit.samples;
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import junit.j3.framework.Test;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestSuite;
 
 /**
  * A sample test case, testing {@link java.util.ArrayList}.

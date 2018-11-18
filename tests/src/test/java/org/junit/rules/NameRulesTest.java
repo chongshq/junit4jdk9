@@ -2,6 +2,7 @@ package org.junit.rules;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Rule;

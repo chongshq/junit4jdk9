@@ -4,6 +4,8 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsInstanceOf.instanceOf;
 import static org.hamcrest.core.IsNull.nullValue;
 import static org.junit.Assert.assertThat;
+
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.RunWith;
 import org.junit.common.runner.Runner;

@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;

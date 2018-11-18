@@ -3,6 +3,7 @@ package org.junit.tests.experimental.theories.extendingwithstubs;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.common.Assume.assumeThat;
 
+import org.junit.common.Assume;
 import org.junit.experimental.theories.Theory;
 import org.junit.common.runner.RunWith;
 

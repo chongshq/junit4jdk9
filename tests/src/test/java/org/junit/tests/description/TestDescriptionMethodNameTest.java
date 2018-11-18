@@ -1,5 +1,6 @@
 package org.junit.tests.description;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.RunWith;

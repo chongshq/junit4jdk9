@@ -8,7 +8,9 @@ import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import org.hamcrest.CoreMatchers;
+import org.junit.Assert;
 import org.junit.common.Test;
+import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.results.ResultMatchers;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;

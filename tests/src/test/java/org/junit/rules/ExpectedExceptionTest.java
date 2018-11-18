@@ -20,6 +20,8 @@ import java.util.Collection;
 
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.Matcher;
+import org.junit.Assert;
+import org.junit.common.Assume;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;

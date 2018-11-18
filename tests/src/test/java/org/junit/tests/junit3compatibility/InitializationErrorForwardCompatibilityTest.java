@@ -4,10 +4,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import junit.framework.AssertionFailedError;
+import junit.j3.framework.AssertionFailedError;
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestListener;
-import junit.framework.TestResult;
+import junit.j3.framework.TestListener;
+import junit.j3.framework.TestResult;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
@@ -61,30 +62,30 @@ public class InitializationErrorForwardCompatibilityTest {
     }
 
     private final class ErrorRememberingListener implements TestListener {
-        private junit.framework.Test fError;
+        private junit.j3.framework.Test fError;
 
-        public void addError(junit.framework.Test test, Throwable e) {
+        public void addError(junit.j3.framework.Test test, Throwable e) {
             fError = test;
         }
 
-        public void addFailure(junit.framework.Test test,
+        public void addFailure(junit.j3.framework.Test test,
                 AssertionFailedError t) {
         }
 
-        public void endTest(junit.framework.Test test) {
+        public void endTest(junit.j3.framework.Test test) {
         }
 
-        public void startTest(junit.framework.Test test) {
+        public void startTest(junit.j3.framework.Test test) {
         }
 
-        public junit.framework.Test getError() {
+        public junit.j3.framework.Test getError() {
             return fError;
         }
     }
 
     @Test
     public void generatedErrorTestsMatchUp() {
-        junit.framework.Test shouldFail = fAdapter.getTests().get(0);
+        junit.j3.framework.Test shouldFail = fAdapter.getTests().get(0);
         TestResult result = new TestResult();
         ErrorRememberingListener listener = new ErrorRememberingListener();
         result.addListener(listener);

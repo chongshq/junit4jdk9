@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.BeforeClass;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
@@ -177,7 +178,7 @@ public class SingleMethodTest {
         public void b() {
         }
 
-        public static junit.framework.Test suite() {
+        public static junit.j3.framework.Test suite() {
             return new JUnit4TestAdapter(HasSuiteMethod.class);
         }
     }

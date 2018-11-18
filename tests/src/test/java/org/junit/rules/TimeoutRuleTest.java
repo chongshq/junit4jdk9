@@ -14,6 +14,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Rule;

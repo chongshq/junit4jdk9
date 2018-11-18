@@ -7,6 +7,5 @@ module core {
 //    exports junit.extensions;
     exports junit.textui;
     exports junit.runner;
-
     exports org.junit;
 }

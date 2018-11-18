@@ -4,6 +4,7 @@ import static org.junit.Assert.fail;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.common.AfterClass;
 import org.junit.common.BeforeClass;
 import org.junit.common.ClassRule;

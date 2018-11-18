@@ -8,6 +8,7 @@ import junit.framework.JUnit4TestAdapter;
 import junit.samples.money.IMoney;
 import junit.samples.money.Money;
 import junit.samples.money.MoneyBag;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 
@@ -20,7 +21,7 @@ public class MoneyTest {
     private IMoney fMB1;
     private IMoney fMB2;
 
-    public static junit.framework.Test suite() {
+    public static junit.j3.framework.Test suite() {
         return new JUnit4TestAdapter(MoneyTest.class);
     }
 

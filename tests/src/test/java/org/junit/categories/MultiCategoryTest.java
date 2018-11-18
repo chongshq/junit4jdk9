@@ -1,6 +1,9 @@
 package org.junit.categories;
 
+import org.junit.Assert;
 import org.junit.common.Test;
+import org.junit.experimental.categories.Categories;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.JUnitCore;
 import org.junit.common.runner.Result;
 import org.junit.common.runner.RunWith;

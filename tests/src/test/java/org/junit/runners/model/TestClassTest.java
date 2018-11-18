@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hamcrest.MatcherAssert;
+import org.junit.Assert;
 import org.junit.common.Ignore;
 import org.junit.common.Rule;
 import org.junit.common.Test;

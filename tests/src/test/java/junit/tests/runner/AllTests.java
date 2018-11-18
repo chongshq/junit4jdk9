@@ -1,7 +1,7 @@
 package junit.tests.runner;
 
-import junit.framework.Test;
-import junit.framework.TestSuite;
+import junit.j3.framework.Test;
+import junit.j3.framework.TestSuite;
 
 /**
  * TestSuite that runs all the sample tests

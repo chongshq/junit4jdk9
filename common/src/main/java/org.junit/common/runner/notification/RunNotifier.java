@@ -48,7 +48,7 @@ public class RunNotifier {
      * Wraps the given listener with {@link SynchronizedRunListener} if
      * it is not annotated with {@link RunListener.ThreadSafe}.
      */
-    RunListener wrapIfNotThreadSafe(RunListener listener) {
+    public RunListener wrapIfNotThreadSafe(RunListener listener) {
         return listener.getClass().isAnnotationPresent(RunListener.ThreadSafe.class) ?
                 listener : new SynchronizedRunListener(listener, this);
     }

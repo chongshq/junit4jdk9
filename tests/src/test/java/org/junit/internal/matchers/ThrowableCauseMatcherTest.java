@@ -1,5 +1,6 @@
 package org.junit.internal.matchers;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 
 import static org.hamcrest.CoreMatchers.is;

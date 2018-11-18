@@ -2,9 +2,10 @@ package org.junit.tests.junit3compatibility;
 
 import static org.junit.Assert.assertEquals;
 
-import junit.framework.AssertionFailedError;
-import junit.framework.TestCase;
-import junit.framework.TestListener;
+import junit.j3.framework.AssertionFailedError;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestListener;
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.common.runner.Result;

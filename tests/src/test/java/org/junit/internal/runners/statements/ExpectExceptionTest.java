@@ -1,5 +1,6 @@
 package org.junit.internal.runners.statements;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runners.model.Statement;

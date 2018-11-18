@@ -10,11 +10,13 @@ import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestResult;
+import junit.j3.framework.TestResult;
 import org.junit.common.AfterClass;
 import org.junit.Assert;
 import org.junit.common.BeforeClass;
 import org.junit.common.Test;
+import org.junit.experimental.results.PrintableResult;
+import org.junit.experimental.results.ResultMatchers;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
 import org.junit.common.runner.Result;
@@ -94,7 +96,7 @@ public class SuiteTest {
 
     @Test
     public void ensureSuitesWorkWithForwardCompatibility() {
-        junit.framework.Test test = new JUnit4TestAdapter(All.class);
+        junit.j3.framework.Test test = new JUnit4TestAdapter(All.class);
         TestResult result = new TestResult();
         test.run(result);
         assertEquals(2, result.runCount());
@@ -103,7 +105,7 @@ public class SuiteTest {
     @Test
     public void forwardCompatibilityWorksWithGetTests() {
         JUnit4TestAdapter adapter = new JUnit4TestAdapter(All.class);
-        List<? extends junit.framework.Test> tests = adapter.getTests();
+        List<? extends junit.j3.framework.Test> tests = adapter.getTests();
         Assert.assertEquals(2, tests.size());
     }
 

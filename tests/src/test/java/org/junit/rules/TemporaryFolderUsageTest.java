@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.hamcrest.CoreMatchers;
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Rule;

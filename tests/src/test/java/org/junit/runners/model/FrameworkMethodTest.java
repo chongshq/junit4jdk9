@@ -9,6 +9,7 @@ import static org.junit.rules.ExpectedException.none;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
+import org.junit.Assert;
 import org.junit.common.ClassRule;
 import org.junit.common.Rule;
 import org.junit.common.Test;

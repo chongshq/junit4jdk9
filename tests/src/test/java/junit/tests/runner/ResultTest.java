@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.List;
 
-import junit.framework.TestCase;
+import junit.j3.framework.TestCase;
 import junit.tests.framework.Success;
 import org.junit.common.Test;
 import org.junit.common.Assume;

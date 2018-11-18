@@ -1,5 +1,6 @@
 package org.junit.internal;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 
 import java.io.IOException;

@@ -11,6 +11,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 import org.hamcrest.CoreMatchers;
+import org.junit.Assert;
 import org.junit.common.Ignore;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;

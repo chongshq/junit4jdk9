@@ -2,12 +2,13 @@ package org.junit.tests.junit3compatibility;
 
 import static org.junit.Assert.assertNull;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.builders.SuiteMethodBuilder;
 
 public class ClassRequestTest {
     public static class PrivateSuiteMethod {
-        static junit.framework.Test suite() {
+        static junit.j3.framework.Test suite() {
             return null;
         }
     }

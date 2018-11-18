@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.experimental.theories.ParameterSignature;

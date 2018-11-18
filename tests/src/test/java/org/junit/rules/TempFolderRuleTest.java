@@ -14,9 +14,12 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Rule;
 import org.junit.common.Test;
+import org.junit.experimental.results.PrintableResult;
+import org.junit.experimental.results.ResultMatchers;
 
 public class TempFolderRuleTest {
     private static File[] createdFiles = new File[20];

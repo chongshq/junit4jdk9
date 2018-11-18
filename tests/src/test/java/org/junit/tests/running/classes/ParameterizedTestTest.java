@@ -18,11 +18,10 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.hamcrest.MatcherAssert;
-import org.junit.common.AfterClass;
-import org.junit.common.BeforeClass;
-import org.junit.common.FixMethodOrder;
-import org.junit.common.Test;
+import org.junit.Assert;
+import org.junit.common.*;
 import org.junit.common.runner.Description;
+import org.junit.experimental.results.PrintableResult;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
 import org.junit.common.runner.Result;

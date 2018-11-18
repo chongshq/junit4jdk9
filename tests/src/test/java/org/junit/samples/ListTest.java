@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.BeforeClass;
 import org.junit.common.Ignore;
@@ -40,7 +41,7 @@ public class ListTest {
         fFull.add(3);
     }
 
-    public static junit.framework.Test suite() {
+    public static junit.j3.framework.Test suite() {
         return new JUnit4TestAdapter(ListTest.class);
     }
 

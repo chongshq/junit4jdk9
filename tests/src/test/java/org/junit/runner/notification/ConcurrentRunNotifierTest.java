@@ -1,5 +1,6 @@
 package org.junit.runner.notification;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.notification.Failure;

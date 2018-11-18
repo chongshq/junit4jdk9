@@ -9,10 +9,8 @@ import static org.junit.common.Assume.assumeTrue;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.common.AfterClass;
-import org.junit.common.Before;
-import org.junit.common.BeforeClass;
-import org.junit.common.Test;
+import org.junit.Assert;
+import org.junit.common.*;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;

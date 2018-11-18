@@ -10,11 +10,15 @@ import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.failureCountIs;
 import static org.junit.experimental.results.ResultMatchers.hasSingleFailureContaining;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
+
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
+import org.junit.experimental.results.PrintableResult;
+import org.junit.experimental.results.ResultMatchers;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 

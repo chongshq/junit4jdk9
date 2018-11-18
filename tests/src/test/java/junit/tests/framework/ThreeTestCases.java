@@ -1,6 +1,6 @@
 package junit.tests.framework;
 
-import junit.framework.TestCase;
+import junit.j3.framework.TestCase;
 
 /**
  * Test class used in SuiteTest

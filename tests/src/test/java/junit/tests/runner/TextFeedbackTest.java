@@ -4,10 +4,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-import junit.framework.AssertionFailedError;
-import junit.framework.TestCase;
-import junit.framework.TestResult;
-import junit.framework.TestSuite;
+import junit.j3.framework.AssertionFailedError;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestResult;
+import junit.j3.framework.TestSuite;
 import junit.textui.ResultPrinter;
 import junit.textui.TestRunner;
 

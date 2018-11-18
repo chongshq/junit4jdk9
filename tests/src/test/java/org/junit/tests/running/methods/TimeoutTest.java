@@ -14,7 +14,8 @@ import java.io.Writer;
 import java.util.concurrent.TimeUnit;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestResult;
+import junit.j3.framework.TestResult;
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Ignore;
 import org.junit.common.Rule;

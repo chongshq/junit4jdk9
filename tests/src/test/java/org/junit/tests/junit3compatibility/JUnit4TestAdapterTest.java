@@ -5,9 +5,10 @@ import static org.junit.Assert.assertEquals;
 import java.util.Collections;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestCase;
-import junit.framework.TestResult;
-import junit.framework.TestSuite;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestResult;
+import junit.j3.framework.TestSuite;
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.common.runner.Result;
@@ -65,7 +66,7 @@ public class JUnit4TestAdapterTest {
     }
 
     public static class TestSuite3 {
-        public static junit.framework.Test suite() {
+        public static junit.j3.framework.Test suite() {
             return new TestSuite(Test3.class);
         }
     }

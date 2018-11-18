@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.File;
 import java.io.InputStream;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 
 // Make sure System.exit works as expected. We've had problems with this on some platforms.

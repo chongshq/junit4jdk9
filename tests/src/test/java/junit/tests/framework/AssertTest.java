@@ -1,8 +1,8 @@
 package junit.tests.framework;
 
-import junit.framework.AssertionFailedError;
-import junit.framework.ComparisonFailure;
-import junit.framework.TestCase;
+import junit.j3.framework.AssertionFailedError;
+import junit.j3.framework.ComparisonFailure;
+import junit.j3.framework.TestCase;
 
 public class AssertTest extends TestCase {
 

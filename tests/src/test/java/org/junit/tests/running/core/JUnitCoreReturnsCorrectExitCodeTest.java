@@ -3,6 +3,7 @@ package org.junit.tests.running.core;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 

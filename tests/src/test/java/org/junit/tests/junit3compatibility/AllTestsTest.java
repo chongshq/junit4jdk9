@@ -6,8 +6,9 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestSuite;
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.common.runner.RunWith;
@@ -25,7 +26,7 @@ public class AllTestsTest {
 
     @RunWith(AllTests.class)
     public static class All {
-        static public junit.framework.Test suite() {
+        static public junit.j3.framework.Test suite() {
             TestSuite suite = new TestSuite();
             suite.addTestSuite(OneTest.class);
             return suite;
@@ -61,7 +62,7 @@ public class AllTestsTest {
 
     @RunWith(AllTests.class)
     public static class AllJUnit4 {
-        static public junit.framework.Test suite() {
+        static public junit.j3.framework.Test suite() {
             TestSuite suite = new TestSuite();
             suite.addTest(new JUnit4TestAdapter(JUnit4Test.class));
             return suite;
@@ -76,7 +77,7 @@ public class AllTestsTest {
 
     @RunWith(AllTests.class)
     public static class BadSuiteMethod {
-        public static junit.framework.Test suite() {
+        public static junit.j3.framework.Test suite() {
             throw new RuntimeException("can't construct");
         }
     }

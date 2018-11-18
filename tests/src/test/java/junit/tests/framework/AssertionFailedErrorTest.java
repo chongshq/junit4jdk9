@@ -1,7 +1,7 @@
 package junit.tests.framework;
 
-import junit.framework.AssertionFailedError;
-import junit.framework.TestCase;
+import junit.j3.framework.AssertionFailedError;
+import junit.j3.framework.TestCase;
 
 public class AssertionFailedErrorTest extends TestCase {
     private static final String ARBITRARY_MESSAGE = "arbitrary message";

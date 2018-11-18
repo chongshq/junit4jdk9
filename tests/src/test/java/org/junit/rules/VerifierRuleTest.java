@@ -5,8 +5,11 @@ import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
 import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
+import org.junit.Assert;
 import org.junit.common.Rule;
 import org.junit.common.Test;
+import org.junit.experimental.results.PrintableResult;
+import org.junit.experimental.results.ResultMatchers;
 
 public class VerifierRuleTest {
 

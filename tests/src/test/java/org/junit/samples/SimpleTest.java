@@ -3,6 +3,7 @@ package org.junit.samples;
 import static org.junit.Assert.assertEquals;
 
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 
@@ -21,7 +22,7 @@ public class SimpleTest {
         fValue2 = 3;
     }
 
-    public static junit.framework.Test suite() {
+    public static junit.j3.framework.Test suite() {
         return new JUnit4TestAdapter(SimpleTest.class);
     }
 

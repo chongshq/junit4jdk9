@@ -18,6 +18,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.function.ThrowingRunnable;
 import org.junit.runners.model.Statement;

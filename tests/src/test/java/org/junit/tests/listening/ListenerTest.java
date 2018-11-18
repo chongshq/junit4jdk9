@@ -2,6 +2,7 @@ package org.junit.tests.listening;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;

@@ -2,6 +2,7 @@ package org.junit.tests.manipulation;
 
 import static org.junit.Assert.assertEquals;
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
@@ -201,7 +202,7 @@ public class OrderWithTest {
         @OrderWith(AlphanumericOrdering.class)
         public static class OrderedAlphanumerically extends Unordered {
  
-            public static junit.framework.Test suite() {
+            public static junit.j3.framework.Test suite() {
                 return new JUnit4TestAdapter(OrderedAlphanumerically.class);
             }
         }
@@ -209,7 +210,7 @@ public class OrderWithTest {
         @OrderWith(ReverseAlphanumericOrdering.class)
         public static class OrderedReverseAlphanumerically extends Unordered {
 
-            public static junit.framework.Test suite() {
+            public static junit.j3.framework.Test suite() {
                 return new JUnit4TestAdapter(OrderedReverseAlphanumerically.class);
             }
         }

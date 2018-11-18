@@ -5,6 +5,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 
 import org.hamcrest.MatcherAssert;
+import org.junit.Assert;
 import org.junit.common.BeforeClass;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;

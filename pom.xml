@@ -248,47 +248,47 @@
                     <maxmem>128m</maxmem>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>animal-sniffer-maven-plugin</artifactId>
-                <version>1.14</version>
-                <executions>
-                    <execution>
-                        <id>signature-check</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                        <configuration>
-                            <signature>
-                                <groupId>org.codehaus.mojo.signature</groupId>
-                                <artifactId>java15</artifactId>
-                                <version>1.0</version>
-                            </signature>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <!--
-                A plugin which uses the JUnit framework in order to start
-                our junit suite "AllTests" after the sources are compiled.
-                -->
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${surefireVersion}</version>
-                <configuration>
-                    <test>org/junit/tests/AllTests.java</test>
-                    <useSystemClassLoader>true</useSystemClassLoader>
-                    <enableAssertions>false</enableAssertions>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.surefire</groupId>
-                        <artifactId>surefire-junit47</artifactId>
-                        <version>${surefireVersion}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.codehaus.mojo</groupId>-->
+                <!--<artifactId>animal-sniffer-maven-plugin</artifactId>-->
+                <!--<version>1.14</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>signature-check</id>-->
+                        <!--<phase>test</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<signature>-->
+                                <!--<groupId>org.codehaus.mojo.signature</groupId>-->
+                                <!--<artifactId>java15</artifactId>-->
+                                <!--<version>1.0</version>-->
+                            <!--</signature>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--&lt;!&ndash;-->
+                <!--A plugin which uses the JUnit framework in order to start-->
+                <!--our junit suite "AllTests" after the sources are compiled.-->
+                <!--&ndash;&gt;-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>${surefireVersion}</version>-->
+                <!--<configuration>-->
+                    <!--<test>org/junit/tests/AllTests.java</test>-->
+                    <!--<useSystemClassLoader>true</useSystemClassLoader>-->
+                    <!--<enableAssertions>false</enableAssertions>-->
+                <!--</configuration>-->
+                <!--<dependencies>-->
+                    <!--<dependency>-->
+                        <!--<groupId>org.apache.maven.surefire</groupId>-->
+                        <!--<artifactId>surefire-junit47</artifactId>-->
+                        <!--<version>${surefireVersion}</version>-->
+                    <!--</dependency>-->
+                <!--</dependencies>-->
+            <!--</plugin>-->
             <plugin>
                 <!--
                 This plugin can package the main artifact's sources (src/main/java)

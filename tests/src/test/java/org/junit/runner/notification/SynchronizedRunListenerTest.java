@@ -11,6 +11,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.notification.RunListener;
 import org.junit.common.runner.notification.SynchronizedRunListener;

@@ -3,7 +3,7 @@ package junit.tests.runner;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import junit.framework.TestCase;
+import junit.j3.framework.TestCase;
 import junit.textui.ResultPrinter;
 import junit.textui.TestRunner;
 

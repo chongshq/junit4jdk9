@@ -1,10 +1,10 @@
 package junit.tests.extensions;
 
-import junit.extensions.RepeatedTest;
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestResult;
-import junit.framework.TestSuite;
+import junit.j3.extensions.RepeatedTest;
+import junit.j3.framework.Test;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestResult;
+import junit.j3.framework.TestSuite;
 
 /**
  * Testing the RepeatedTest support.

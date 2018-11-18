@@ -2,6 +2,8 @@ package org.junit.rules;
 
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
+import org.junit.Assert;
+import org.junit.common.Assume;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.common.function.ThrowingRunnable;

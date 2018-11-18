@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.AfterClass;
 import org.junit.common.Before;
@@ -182,7 +183,7 @@ public class ParameterizedTestMethodTest {
         Assert.assertEquals(fErrorCount, problems.size());
     }
 
-    public static junit.framework.Test suite() {
+    public static junit.j3.framework.Test suite() {
         return new JUnit4TestAdapter(ParameterizedTestMethodTest.class);
     }
 }

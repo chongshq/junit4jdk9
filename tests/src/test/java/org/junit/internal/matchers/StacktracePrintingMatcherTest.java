@@ -10,6 +10,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.util.internal.matchers.StacktracePrintingMatcher.isException;
 import static org.junit.util.internal.matchers.StacktracePrintingMatcher.isThrowable;
 
+import org.junit.Assert;
 import org.junit.common.Test;
 
 public class StacktracePrintingMatcherTest {

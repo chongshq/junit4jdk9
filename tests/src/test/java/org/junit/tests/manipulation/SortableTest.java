@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Comparator;
 
 import junit.framework.JUnit4TestAdapter;
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.runners.Enclosed;
@@ -144,7 +145,7 @@ public class SortableTest {
                 log += "c";
             }
 
-            public static junit.framework.Test suite() {
+            public static junit.j3.framework.Test suite() {
                 return new JUnit4TestAdapter(SortMe.class);
             }
         }
@@ -245,7 +246,7 @@ public class SortableTest {
                 log += "c";
             }
 
-            public static junit.framework.Test suite() {
+            public static junit.j3.framework.Test suite() {
                 return new JUnit4TestAdapter(SortMe.class);
             }
         }

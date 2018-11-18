@@ -8,7 +8,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-import junit.framework.TestCase;
+import junit.j3.framework.TestCase;
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;

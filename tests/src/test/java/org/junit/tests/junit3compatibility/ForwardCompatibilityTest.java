@@ -1,11 +1,11 @@
 package org.junit.tests.junit3compatibility;
 
-import junit.framework.AssertionFailedError;
+import junit.j3.framework.AssertionFailedError;
 import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestCase;
-import junit.framework.TestFailure;
-import junit.framework.TestListener;
-import junit.framework.TestResult;
+import junit.j3.framework.TestCase;
+import junit.j3.framework.TestFailure;
+import junit.j3.framework.TestListener;
+import junit.j3.framework.TestResult;
 import org.junit.common.After;
 import org.junit.common.AfterClass;
 import org.junit.common.Before;
@@ -39,14 +39,14 @@ public class ForwardCompatibilityTest extends TestCase {
     public void testCompatibility() {
         fLog = "";
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(NewTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(NewTest.class);
         adapter.run(result);
         assertEquals("before test after ", fLog);
     }
 
     public void testToString() {
         JUnit4TestAdapter adapter = new JUnit4TestAdapter(NewTest.class);
-        junit.framework.Test test = adapter.getTests().get(0);
+        junit.j3.framework.Test test = adapter.getTests().get(0);
         assertEquals(String.format("test(%s)", NewTest.class.getName()), test.toString());
     }
 
@@ -67,7 +67,7 @@ public class ForwardCompatibilityTest extends TestCase {
 
     public void testException() {
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(ErrorTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(ErrorTest.class);
         adapter.run(result);
         assertEquals(exception, result.errors().nextElement().thrownException());
     }
@@ -78,19 +78,19 @@ public class ForwardCompatibilityTest extends TestCase {
         final StringBuffer log = new StringBuffer();
         result.addListener(new TestListener() {
 
-            public void startTest(junit.framework.Test test) {
+            public void startTest(junit.j3.framework.Test test) {
                 log.append(" start ").append(test);
             }
 
-            public void endTest(junit.framework.Test test) {
+            public void endTest(junit.j3.framework.Test test) {
                 log.append(" end ").append(test);
             }
 
-            public void addFailure(junit.framework.Test test, AssertionFailedError t) {
+            public void addFailure(junit.j3.framework.Test test, AssertionFailedError t) {
                 log.append(" failure ").append(test);
             }
 
-            public void addError(junit.framework.Test test, Throwable e) {
+            public void addError(junit.j3.framework.Test test, Throwable e) {
                 log.append(" error " + test);
             }
         });
@@ -108,7 +108,7 @@ public class ForwardCompatibilityTest extends TestCase {
 
     public void testNoException() {
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(NoExceptionTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(NoExceptionTest.class);
         adapter.run(result);
         assertFalse(result.wasSuccessful());
     }
@@ -122,7 +122,7 @@ public class ForwardCompatibilityTest extends TestCase {
 
     public void testExpected() {
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(ExpectedTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(ExpectedTest.class);
         adapter.run(result);
         assertTrue(result.wasSuccessful());
     }
@@ -171,7 +171,7 @@ public class ForwardCompatibilityTest extends TestCase {
     public void testBeforeAndAfterClass() {
         log = "";
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(BeforeClassTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(BeforeClassTest.class);
         adapter.run(result);
         assertEquals("before class before test after before test after after class ", log);
     }
@@ -189,7 +189,7 @@ public class ForwardCompatibilityTest extends TestCase {
 
     public void testExceptionInBefore() {
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(ExceptionInBeforeTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(ExceptionInBeforeTest.class);
         adapter.run(result);
         assertEquals(1, result.errorCount());
     }
@@ -206,7 +206,7 @@ public class ForwardCompatibilityTest extends TestCase {
 
     public void testInvalidMethod() {
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(InvalidMethodTest.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(InvalidMethodTest.class);
         adapter.run(result);
         assertEquals(1, result.errorCount());
         TestFailure failure = result.errors().nextElement();
@@ -242,13 +242,13 @@ public class ForwardCompatibilityTest extends TestCase {
     public void testRunWithClass() {
         wasRun = false;
         TestResult result = new TestResult();
-        junit.framework.Test adapter = new JUnit4TestAdapter(NoTests.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(NoTests.class);
         adapter.run(result);
         assertTrue(wasRun);
     }
 
     public void testToStringSuite() {
-        junit.framework.Test adapter = new JUnit4TestAdapter(NoTests.class);
+        junit.j3.framework.Test adapter = new JUnit4TestAdapter(NoTests.class);
         assertEquals(NoTests.class.getName(), adapter.toString());
     }
 }

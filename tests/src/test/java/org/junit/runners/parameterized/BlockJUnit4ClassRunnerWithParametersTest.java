@@ -13,6 +13,7 @@ import java.lang.annotation.Target;
 import java.util.Collections;
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.rules.ExpectedException;

@@ -1,6 +1,6 @@
 package junit.samples.money;
 
-import junit.framework.TestCase;
+import junit.j3.framework.TestCase;
 
 public class MoneyTest extends TestCase {
     private Money f12CHF;

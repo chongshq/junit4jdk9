@@ -20,11 +20,11 @@ import org.junit.common.runner.Result;
  * @see RunNotifier
  */
 @RunListener.ThreadSafe
-final class SynchronizedRunListener extends RunListener {
+public final class SynchronizedRunListener extends RunListener {
     private final RunListener listener;
     private final Object monitor;
 
-    SynchronizedRunListener(RunListener listener, Object monitor) {
+    public SynchronizedRunListener(RunListener listener, Object monitor) {
         this.listener = listener;
         this.monitor = monitor;
     }

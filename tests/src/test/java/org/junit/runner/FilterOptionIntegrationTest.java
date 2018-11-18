@@ -3,6 +3,7 @@ package org.junit.runner;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;

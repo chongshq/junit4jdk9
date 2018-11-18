@@ -15,6 +15,7 @@ import java.util.List;
 
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
+import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.TestCouldNotBeSkippedException;
 import org.junit.common.internal.AssumptionViolatedException;

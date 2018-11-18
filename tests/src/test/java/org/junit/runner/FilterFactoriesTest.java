@@ -8,6 +8,7 @@ import static org.junit.common.Assume.assumeThat;
 
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
+import org.junit.common.Assume;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;

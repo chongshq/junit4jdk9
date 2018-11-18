@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.ParallelComputer;

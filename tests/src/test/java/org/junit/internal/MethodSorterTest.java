@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.common.FixMethodOrder;
 import org.junit.common.Test;
 import org.junit.common.internal.MethodSorter;

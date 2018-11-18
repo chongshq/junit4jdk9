@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
 import org.junit.common.Test;
