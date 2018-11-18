@@ -72,7 +72,7 @@ and initiating work on it.
   - Useless code in RunAfters [@stefanbirkner, fixing gh-289]
   - Parameterized test classes should be able to have `@Category` annotations
     [@dsaff, fixing gh-291]
-  - Error count should be initialized in junit.tests.framework.TestListenerTest [@stefanbirkner, fixing gh-225]
+  - Error count should be initialized in TestListenerTest [@stefanbirkner, fixing gh-225]
   - AssertionFailedError constructor shouldn't call super with null message [@stefanbirkner, fixing gh-318]
   - Clearer error message for non-static inner test classes  [@stefanbirkner, fixing gh-42]
 

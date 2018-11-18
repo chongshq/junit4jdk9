@@ -260,7 +260,7 @@
       the JUnit installation directory is on your CLASSPATH.  Then
       simply type:
     </p>
-    <pre>java org.junit.runner.JUnitCore org.junit.tests.AllTests</pre>
+    <pre>java org.junit.runner.JUnitCore org.AllTests</pre>
     <p>
       All the tests should pass with an "OK" message.
     </p>

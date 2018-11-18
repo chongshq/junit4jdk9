@@ -29,6 +29,7 @@
         <module>
             junit3
         </module>
+        <module>tests</module>
     </modules>
 
     <developers>

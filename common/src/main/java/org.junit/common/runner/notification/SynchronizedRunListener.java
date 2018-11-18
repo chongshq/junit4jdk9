@@ -59,14 +59,6 @@ final class SynchronizedRunListener extends RunListener {
         }
     }
 
-    /**
-     * {@inheritDoc}
-     * <p/>
-     * Synchronized decorator for {@link RunListener#testSuiteFinished(Description)}.
-     * @param description the description of the test suite that just ran.
-     * @throws Exception
-     * @since 4.13
-     */
     @Override
     public void testSuiteFinished(Description description) throws Exception {
         synchronized (monitor) {
