@@ -1,8 +1,7 @@
-package org.junit.runners.model;
+package org.junit.model.runners.model;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
-import java.util.List;
 
 //import org.junit.runners.BlockJUnit4ClassRunner;
 
@@ -15,7 +14,7 @@ import java.util.List;
 public class FrameworkField extends FrameworkMember<FrameworkField> {
     private final Field field;
 
-    FrameworkField(Field field) {
+    public FrameworkField(Field field) {
         if (field == null) {
             throw new NullPointerException(
                     "FrameworkField cannot be created without an underlying field.");
@@ -51,7 +50,7 @@ public class FrameworkField extends FrameworkMember<FrameworkField> {
     }
 
     @Override
-    boolean isBridgeMethod() {
+    protected boolean isBridgeMethod() {
         return false;
     }
 

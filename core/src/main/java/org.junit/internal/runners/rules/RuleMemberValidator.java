@@ -4,7 +4,7 @@ import org.junit.common.ClassRule;
 import org.junit.common.Rule;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
-import org.junit.runners.model.FrameworkMember;
+import org.junit.model.runners.model.FrameworkMember;
 import org.junit.runners.model.TestClass;
 
 import java.lang.annotation.Annotation;

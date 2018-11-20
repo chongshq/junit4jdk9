@@ -30,6 +30,8 @@
             junit3
         </module>
         <module>tests</module>
+        <module>model</module>
+        <module>notification</module>
     </modules>
 
     <developers>

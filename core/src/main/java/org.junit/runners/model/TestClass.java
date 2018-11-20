@@ -22,6 +22,9 @@ import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.BeforeClass;
 import org.junit.common.internal.MethodSorter;
+import org.junit.model.runners.model.Annotatable;
+import org.junit.model.runners.model.FrameworkField;
+import org.junit.model.runners.model.FrameworkMember;
 
 /**
  * Wraps a class to be run, providing method validation and annotation searching
@@ -80,7 +83,7 @@ public class TestClass implements Annotatable {
     }
 
     protected static <T extends FrameworkMember<T>> void addToAnnotationLists(T member,
-            Map<Class<? extends Annotation>, List<T>> map) {
+                                                                              Map<Class<? extends Annotation>, List<T>> map) {
         for (Annotation each : member.getAnnotations()) {
             Class<? extends Annotation> type = each.annotationType();
             List<T> members = getAnnotatedMembers(map, type, true);

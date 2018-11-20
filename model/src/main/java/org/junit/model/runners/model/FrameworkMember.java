@@ -1,16 +1,12 @@
-package org.junit.runners.model;
+package org.junit.model.runners.model;
 
 import java.lang.reflect.Modifier;
 import java.util.List;
 
-/**
- * Parent class for {@link FrameworkField} and {@link FrameworkMethod}
- *
- * @since 4.7
- */
+
 public abstract class FrameworkMember<T extends FrameworkMember<T>> implements
         Annotatable {
-    abstract boolean isShadowedBy(T otherMember);
+    public abstract boolean isShadowedBy(T otherMember);
 
     /**
      * Check if this member is shadowed by any of the given members. If it
@@ -18,7 +14,7 @@ public abstract class FrameworkMember<T extends FrameworkMember<T>> implements
      * 
      * @return member that should be used, or {@code null} if no member should be used.
      */
-    final T handlePossibleShadowedMember(List<T> members) {
+    public final T handlePossibleShadowedMember(List<T> members) {
         for (int i = members.size() - 1; i >=0; i--) {
             T otherMember = members.get(i);
             if (isShadowedBy(otherMember)) {
@@ -44,7 +40,7 @@ public abstract class FrameworkMember<T extends FrameworkMember<T>> implements
         return (T) this;
     }
 
-    abstract boolean isBridgeMethod();
+    protected abstract boolean isBridgeMethod();
 
     protected abstract int getModifiers();
 

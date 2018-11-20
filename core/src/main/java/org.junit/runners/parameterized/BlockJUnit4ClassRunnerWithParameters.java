@@ -11,7 +11,7 @@ import org.junit.common.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
-import org.junit.runners.model.FrameworkField;
+import org.junit.model.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.Statement;
@@ -117,7 +117,7 @@ public class BlockJUnit4ClassRunnerWithParameters extends
         if (getInjectionType() == InjectionType.FIELD) {
             List<FrameworkField> annotatedFieldsByParameter = getAnnotatedFieldsByParameter();
             int[] usedIndices = new int[annotatedFieldsByParameter.size()];
-            for (FrameworkField each : annotatedFieldsByParameter) {
+            for  (FrameworkField each : annotatedFieldsByParameter) {
                 int index = each.getField().getAnnotation(Parameter.class)
                         .value();
                 if (index < 0 || index > annotatedFieldsByParameter.size() - 1) {

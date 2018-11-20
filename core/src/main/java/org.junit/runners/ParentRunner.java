@@ -38,7 +38,7 @@ import org.junit.common.runner.manipulation.Orderable;
 import org.junit.common.runner.manipulation.Sorter;
 import org.junit.common.runner.notification.RunNotifier;
 import org.junit.common.runner.notification.StoppedByUserException;
-import org.junit.runners.model.FrameworkMember;
+import org.junit.model.runners.model.FrameworkMember;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.InvalidTestClassError;

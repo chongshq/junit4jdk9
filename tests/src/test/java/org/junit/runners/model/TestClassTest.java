@@ -15,6 +15,7 @@ import org.junit.Assert;
 import org.junit.common.Ignore;
 import org.junit.common.Rule;
 import org.junit.common.Test;
+import org.junit.model.runners.model.FrameworkField;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.TestRule;
 import org.junit.common.runner.RunWith;

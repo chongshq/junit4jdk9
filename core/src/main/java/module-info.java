@@ -3,6 +3,7 @@ module core {
     requires hamcrest.core;
     requires util;
     requires junit3;
+    requires model;
     exports junit.framework;
 //    exports junit.extensions;
     exports junit.textui;

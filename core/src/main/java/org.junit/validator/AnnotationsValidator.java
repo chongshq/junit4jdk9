@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.runners.model.Annotatable;
-import org.junit.runners.model.FrameworkField;
+import org.junit.model.runners.model.Annotatable;
+import org.junit.model.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.TestClass;
 

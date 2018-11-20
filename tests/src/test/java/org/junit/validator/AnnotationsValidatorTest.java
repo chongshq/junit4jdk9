@@ -12,7 +12,7 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.common.Test;
-import org.junit.runners.model.FrameworkField;
+import org.junit.model.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.TestClass;
 

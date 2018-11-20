@@ -1,6 +1,6 @@
 package org.junit.internal.runners.rules;
 
-import org.junit.runners.model.FrameworkMember;
+import org.junit.model.runners.model.FrameworkMember;
 
 import java.lang.annotation.Annotation;
 

@@ -1,6 +1,6 @@
 package org.junit.validator;
 
-import org.junit.runners.model.FrameworkField;
+import org.junit.model.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.TestClass;
 

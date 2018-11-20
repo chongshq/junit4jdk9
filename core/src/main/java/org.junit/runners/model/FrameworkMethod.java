@@ -7,6 +7,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import org.junit.internal.runners.model.ReflectiveCallable;
+import org.junit.model.runners.model.FrameworkMember;
 
 /**
  * Represents a method on a test class to be invoked at the appropriate point in
@@ -158,7 +159,7 @@ public class FrameworkMethod extends FrameworkMember<FrameworkMethod> {
     }
 
     @Override
-    boolean isBridgeMethod() {
+    protected boolean isBridgeMethod() {
         return method.isBridge();
     }
 

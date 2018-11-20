@@ -1,4 +1,4 @@
-package org.junit.runners.model;
+package org.junit.model.runners.model;
 
 import java.lang.annotation.Annotation;
 
