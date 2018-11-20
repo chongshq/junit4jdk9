@@ -8,7 +8,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 import static org.junit.util.internal.matchers.ThrowableCauseMatcher.hasCause;
 
 import java.util.ArrayList;
@@ -28,8 +27,8 @@ import org.junit.experimental.results.ResultMatchers;
 import org.junit.internal.runners.statements.Fail;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
 import org.junit.runners.model.MultipleFailureException;
 import org.junit.runners.model.Statement;
 

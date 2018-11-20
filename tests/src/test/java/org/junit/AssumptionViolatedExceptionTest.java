@@ -13,7 +13,7 @@ import org.junit.common.Test;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 @RunWith(Theories.class)
 public class AssumptionViolatedExceptionTest {

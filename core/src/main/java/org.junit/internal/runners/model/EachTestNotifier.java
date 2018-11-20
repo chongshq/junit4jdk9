@@ -2,8 +2,8 @@ package org.junit.internal.runners.model;
 
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.model.MultipleFailureException;
 
 public class EachTestNotifier {

@@ -7,7 +7,6 @@ import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.CoreMatchers.nullValue;
 import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 import static org.junit.tests.experimental.theories.TheoryTestUtils.potentialAssignments;
 
 import java.util.ArrayList;
@@ -23,8 +22,8 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.notification.Failure;
 
 public class WithDataPointMethod {
     @RunWith(Theories.class)

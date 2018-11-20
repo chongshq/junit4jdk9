@@ -8,8 +8,8 @@ import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit4ClassRunner;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.RunWith;
 
 /**
  * @deprecated This is a simple smoke test to make sure the old JUnit4ClassRunner basically works.

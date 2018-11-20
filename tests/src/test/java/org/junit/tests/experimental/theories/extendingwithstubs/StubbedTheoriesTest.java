@@ -5,7 +5,7 @@ import static org.junit.common.Assume.assumeThat;
 
 import org.junit.common.Assume;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 @RunWith(StubbedTheories.class)
 public class StubbedTheoriesTest {

@@ -1,8 +1,8 @@
 package org.junit.runner.manipulation;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.Runner;
 import org.junit.common.runner.manipulation.NoTestsRemainException;
 import org.junit.runner.Request;
 

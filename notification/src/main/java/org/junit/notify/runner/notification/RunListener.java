@@ -1,4 +1,4 @@
-package org.junit.common.runner.notification;
+package org.junit.notify.runner.notification;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 import org.junit.common.AssumptionViolatedException;
 import org.junit.common.Ignore;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 public class RunListener {
 

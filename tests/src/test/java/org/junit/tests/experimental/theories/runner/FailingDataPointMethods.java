@@ -3,7 +3,6 @@ package org.junit.tests.experimental.theories.runner;
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
@@ -14,7 +13,7 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class FailingDataPointMethods {
     

@@ -1,4 +1,4 @@
-package org.junit.common.runner.notification;
+package org.junit.notify.runner.notification;
 
 import static java.util.Arrays.asList;
 
@@ -8,13 +8,12 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.junit.common.AssumptionViolatedException;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 /**
  * If you write custom runners, you may need to notify JUnit of your progress running tests.
  * Do this by invoking the <code>RunNotifier</code> passed to your implementation of
- * {@link Runner#run(RunNotifier)}. Future evolution of this class is likely to
+ * . Future evolution of this class is likely to
  * move {@link #fireTestRunStarted(Description)} and {@link #fireTestRunFinished(Result)}
  * to a separate class since they should only be called once per run.
  *

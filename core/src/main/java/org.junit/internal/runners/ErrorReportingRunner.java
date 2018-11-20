@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.Runner;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.model.InvalidTestClassError;
 import org.junit.runners.model.InitializationError;
 

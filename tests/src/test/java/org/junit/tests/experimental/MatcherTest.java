@@ -3,8 +3,6 @@ package org.junit.tests.experimental;
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
 import static org.junit.common.Assume.assumeThat;
-import static org.junit.experimental.results.ResultMatchers.hasFailureContaining;
-import static org.junit.experimental.results.ResultMatchers.hasSingleFailureContaining;
 
 import java.util.Arrays;
 
@@ -17,8 +15,8 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.notification.Failure;
 
 @RunWith(Theories.class)
 public class MatcherTest {

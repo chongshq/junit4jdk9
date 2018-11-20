@@ -25,7 +25,7 @@ import org.junit.internal.runners.statements.RunBefores;
 import org.junit.rules.MethodRule;
 import org.junit.rules.TestRule;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.model.runners.model.FrameworkMember;
 import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;

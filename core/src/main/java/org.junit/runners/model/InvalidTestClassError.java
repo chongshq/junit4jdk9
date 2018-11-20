@@ -1,6 +1,6 @@
 package org.junit.runners.model;
 
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 
 import java.util.List;
 

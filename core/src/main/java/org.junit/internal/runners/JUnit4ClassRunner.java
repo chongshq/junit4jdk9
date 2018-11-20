@@ -9,14 +9,14 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.Filterable;
 import org.junit.common.runner.manipulation.NoTestsRemainException;
 import org.junit.common.runner.manipulation.Sortable;
 import org.junit.common.runner.manipulation.Sorter;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 /**

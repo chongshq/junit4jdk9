@@ -7,11 +7,11 @@ import org.junit.Assert;
 import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 import org.junit.experimental.categories.Category;
 import org.junit.experimental.categories.ExcludeCategories;
 import org.junit.experimental.categories.IncludeCategories;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.notification.RunListener;
 import org.junit.tests.TestSystem;
 
 import static org.hamcrest.CoreMatchers.is;

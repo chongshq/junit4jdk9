@@ -2,7 +2,7 @@ package org.junit.internal.requests;
 
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.internal.builders.SuiteMethodBuilder;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.RunnerBuilder;
 
 public class ClassRequest extends MemoizingRequest {

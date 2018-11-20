@@ -2,7 +2,7 @@ package org.junit.runner;
 
 import org.hamcrest.MatcherAssert;
 import org.junit.common.Test;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 import org.junit.tests.TestSystem;
 
 import static org.hamcrest.CoreMatchers.instanceOf;

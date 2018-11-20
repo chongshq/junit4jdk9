@@ -15,7 +15,7 @@ import org.junit.experimental.theories.FromDataPoints;
 import org.junit.experimental.theories.PotentialAssignment;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class WithNamedDataPoints {
 

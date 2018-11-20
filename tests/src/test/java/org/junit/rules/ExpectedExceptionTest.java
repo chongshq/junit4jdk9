@@ -10,7 +10,6 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 import static org.junit.common.Assume.assumeTrue;
-import static org.junit.rules.ExpectedException.none;
 import static org.junit.rules.EventCollector.everyTestRunSuccessful;
 import static org.junit.rules.EventCollector.hasSingleAssumptionFailure;
 import static org.junit.rules.EventCollector.hasSingleFailure;
@@ -25,7 +24,7 @@ import org.junit.common.Assume;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 

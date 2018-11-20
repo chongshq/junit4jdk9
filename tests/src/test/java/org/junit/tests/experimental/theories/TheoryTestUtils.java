@@ -8,8 +8,8 @@ import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.internal.Assignments;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.TestClass;
 

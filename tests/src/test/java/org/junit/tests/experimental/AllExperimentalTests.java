@@ -1,7 +1,7 @@
 package org.junit.tests.experimental;
 
 import org.junit.categories.AllCategoriesTests;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 import org.junit.tests.experimental.max.AllMaxTests;

@@ -1,4 +1,4 @@
-package org.junit.common.runner.notification;
+package org.junit.notify.runner.notification;
 
 import java.io.Serializable;
 

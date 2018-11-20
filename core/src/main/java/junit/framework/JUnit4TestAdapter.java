@@ -6,7 +6,7 @@ import org.junit.common.Ignore;
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;
 import org.junit.runner.Request;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.Filterable;
 import org.junit.common.runner.manipulation.Orderer;

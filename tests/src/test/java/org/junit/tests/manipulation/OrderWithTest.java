@@ -10,10 +10,10 @@ import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.common.runner.OrderWith;
 import org.junit.runner.Request;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.Runner;
 import org.junit.common.runner.manipulation.Alphanumeric;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.RunNotifier;
 
 @RunWith(Enclosed.class)
 public class OrderWithTest {

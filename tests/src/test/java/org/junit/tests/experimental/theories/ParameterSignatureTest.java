@@ -19,7 +19,7 @@ import org.junit.experimental.theories.ParameterSignature;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.experimental.theories.suppliers.TestedOn;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 @RunWith(Theories.class)
 public class ParameterSignatureTest {

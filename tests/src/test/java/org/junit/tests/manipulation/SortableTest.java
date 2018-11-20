@@ -13,12 +13,12 @@ import org.junit.experimental.runners.Enclosed;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.Runner;
 import org.junit.common.runner.manipulation.Orderable;
 import org.junit.common.runner.manipulation.Sortable;
 import org.junit.common.runner.manipulation.Sorter;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 
 @RunWith(Enclosed.class)

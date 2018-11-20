@@ -4,8 +4,7 @@ import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.hasFailureContaining;
-import static org.junit.experimental.results.ResultMatchers.hasSingleFailureContaining;
+
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.common.Test;
@@ -15,7 +14,7 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.model.TestClass;
 
 public class UnsuccessfulWithDataPointFields {

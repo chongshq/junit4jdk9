@@ -6,8 +6,8 @@ import static org.junit.Assert.fail;
 import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.model.InitializationError;
 

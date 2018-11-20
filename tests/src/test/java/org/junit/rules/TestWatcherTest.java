@@ -2,12 +2,8 @@ package org.junit.rules;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.*;
 import static org.junit.common.Assume.assumeTrue;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.failureCountIs;
-import static org.junit.experimental.results.ResultMatchers.hasFailureContaining;
-import static org.junit.rules.ExpectedException.none;
 
 import org.hamcrest.MatcherAssert;
 import org.junit.Assert;
@@ -20,8 +16,8 @@ import org.junit.experimental.runners.Enclosed;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;

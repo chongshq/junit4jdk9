@@ -22,11 +22,11 @@ import org.junit.runner.Computer;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.Runner;
 import org.junit.runner.manipulation.Filter;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunListener;
 import org.junit.tests.AllTests;
 
 public class MaxStarterTest {

@@ -13,8 +13,8 @@ import java.util.Set;
 
 import org.junit.Assert;
 import org.junit.common.Test;
-import org.junit.common.runner.notification.RunListener;
-import org.junit.common.runner.notification.SynchronizedRunListener;
+import org.junit.notify.runner.notification.RunListener;
+import org.junit.notify.runner.notification.SynchronizedRunListener;
 
 /**
  * Tests for {@link SynchronizedRunListener}.

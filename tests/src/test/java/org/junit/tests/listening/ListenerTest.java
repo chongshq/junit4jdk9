@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.notification.RunListener;
 
 public class ListenerTest {
     static private String log;

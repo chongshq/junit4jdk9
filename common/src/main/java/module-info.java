@@ -6,6 +6,6 @@ module common {
     exports org.junit.common.function;
     exports org.junit.common.runner;
     exports org.junit.common.runner.manipulation;
-    exports org.junit.common.runner.notification;
+//    exports org.junit.common.runner.notification;
     opens org.junit.common.runner.notification;
 }

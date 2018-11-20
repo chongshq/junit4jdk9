@@ -3,7 +3,7 @@ package org.junit.internal.builders;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.RunnerBuilder;
 
 public class AllDefaultPossibilitiesBuilder extends RunnerBuilder {

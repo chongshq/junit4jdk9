@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.junit.internal.runners.statements.RunAfters;
 import org.junit.internal.runners.statements.RunBefores;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;

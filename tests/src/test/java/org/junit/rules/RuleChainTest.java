@@ -8,7 +8,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.rules.RuleChain.outerRule;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +20,7 @@ import org.junit.common.internal.Throwables;
 import org.junit.common.runner.Description;
 import org.junit.experimental.results.PrintableResult;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 public class RuleChainTest {
     private static final List<String> LOG = new ArrayList<String>();

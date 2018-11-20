@@ -16,7 +16,7 @@ import org.junit.common.BeforeClass;
 import org.junit.common.Ignore;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.model.InitializationError;
 

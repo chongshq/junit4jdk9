@@ -1,7 +1,7 @@
 package org.junit.internal.builders;
 
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;
 

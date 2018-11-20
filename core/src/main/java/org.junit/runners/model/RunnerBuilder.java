@@ -8,7 +8,7 @@ import java.util.Set;
 import org.junit.internal.runners.ErrorReportingRunner;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.OrderWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.common.runner.manipulation.InvalidOrderingException;
 import org.junit.common.runner.manipulation.Ordering;
 

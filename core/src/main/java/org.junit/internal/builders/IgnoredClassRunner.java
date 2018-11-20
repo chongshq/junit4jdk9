@@ -1,8 +1,8 @@
 package org.junit.internal.builders;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.Runner;
+import org.junit.notify.runner.notification.RunNotifier;
 
 public class IgnoredClassRunner extends Runner {
     private final Class<?> clazz;

@@ -18,7 +18,7 @@ import org.junit.common.Test;
 import org.junit.model.runners.model.FrameworkField;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.TestRule;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class TestClassTest {
 

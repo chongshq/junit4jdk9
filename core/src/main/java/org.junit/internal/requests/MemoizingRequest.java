@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.junit.runner.Request;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 
 abstract class MemoizingRequest extends Request {
     private final Lock runnerLock = new ReentrantLock();

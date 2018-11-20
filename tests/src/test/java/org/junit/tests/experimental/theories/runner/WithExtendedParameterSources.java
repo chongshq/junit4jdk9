@@ -5,7 +5,6 @@ import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
@@ -18,7 +17,7 @@ import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
 import org.junit.experimental.theories.suppliers.TestedOn;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class WithExtendedParameterSources {
     @RunWith(Theories.class)

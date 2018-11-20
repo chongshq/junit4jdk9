@@ -14,7 +14,7 @@ import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.experimental.ParallelComputer;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 public class ParallelClassTest {
     private static final long TIMEOUT = 15;

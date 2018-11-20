@@ -1,4 +1,4 @@
-package org.junit.common.runner;
+package org.junit.notify.runner;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

@@ -24,8 +24,8 @@ import org.junit.rules.ExternalResource;
 import org.junit.rules.TestRule;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 public class AnnotationTest extends TestCase {

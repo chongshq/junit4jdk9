@@ -3,7 +3,6 @@ package org.junit.tests.experimental.theories.runner;
 import static org.junit.Assert.assertThat;
 import static org.junit.common.Assume.assumeTrue;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import org.junit.Assert;
 import org.junit.common.Assume;
@@ -13,7 +12,7 @@ import org.junit.experimental.results.ResultMatchers;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class TheoriesPerformanceTest {
     @RunWith(Theories.class)

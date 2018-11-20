@@ -15,7 +15,7 @@ import org.junit.common.*;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 /**
  * @author tibor17

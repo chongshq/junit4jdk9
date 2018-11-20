@@ -11,8 +11,8 @@ import java.util.List;
 import junit.framework.Test;
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.Runner;
+import org.junit.notify.runner.notification.RunNotifier;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;
 

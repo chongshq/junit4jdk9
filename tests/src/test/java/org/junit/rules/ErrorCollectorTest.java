@@ -9,7 +9,7 @@ import org.junit.common.Test;
 import org.junit.common.function.ThrowingRunnable;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;

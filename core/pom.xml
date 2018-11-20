@@ -44,6 +44,11 @@
             <artifactId>model</artifactId>
             <version>4.13-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>notification</artifactId>
+            <version>4.13-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

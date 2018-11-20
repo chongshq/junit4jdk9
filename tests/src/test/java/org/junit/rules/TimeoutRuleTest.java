@@ -20,8 +20,8 @@ import org.junit.common.Before;
 import org.junit.common.Rule;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
 
 public class TimeoutRuleTest {
     private static final ReentrantLock run1Lock = new ReentrantLock();

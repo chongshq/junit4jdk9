@@ -5,9 +5,9 @@ import java.text.NumberFormat;
 import java.util.List;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunListener;
 
 public class TextListener extends RunListener {
 

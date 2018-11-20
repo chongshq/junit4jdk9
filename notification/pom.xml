@@ -24,6 +24,11 @@
             <version>${hamcrestVersion}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>common</artifactId>
+            <version>4.13-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

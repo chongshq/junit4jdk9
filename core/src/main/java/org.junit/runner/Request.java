@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import org.junit.common.Test;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.internal.requests.ClassRequest;
 import org.junit.internal.requests.FilterRequest;

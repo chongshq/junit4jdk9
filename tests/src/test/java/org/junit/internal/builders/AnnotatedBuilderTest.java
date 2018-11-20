@@ -7,8 +7,8 @@ import static org.junit.Assert.assertThat;
 
 import org.junit.Assert;
 import org.junit.common.Test;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.Runner;
 import org.junit.runner.RunnerSpy;
 import org.junit.runners.model.RunnerBuilder;
 import org.junit.runners.model.RunnerBuilderStub;

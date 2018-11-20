@@ -8,11 +8,9 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import static org.junit.common.Assume.assumeNoException;
-import static org.junit.common.Assume.assumeNotNull;
 import static org.junit.common.Assume.assumeThat;
 import static org.junit.common.Assume.assumeTrue;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,9 +24,9 @@ import org.junit.common.Test;
 import org.junit.experimental.results.PrintableResult;
 import org.junit.experimental.results.ResultMatchers;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunListener;
 
 public class AssumptionTest {
     public static class HasFailingAssumption {

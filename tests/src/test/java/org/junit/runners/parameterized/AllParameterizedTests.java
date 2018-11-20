@@ -1,6 +1,6 @@
 package org.junit.runners.parameterized;
 
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 

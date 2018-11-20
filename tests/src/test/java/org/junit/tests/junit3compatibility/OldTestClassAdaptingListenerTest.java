@@ -8,9 +8,9 @@ import junit.framework.TestListener;
 import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.RunListener;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.RunListener;
+import org.junit.notify.runner.notification.RunNotifier;
 
 public class OldTestClassAdaptingListenerTest {
     @Test

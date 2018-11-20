@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.common.Ignore;
 import org.junit.common.Test;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 public class IgnoreClassTest {
     @Ignore("For a good reason")

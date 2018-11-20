@@ -9,9 +9,9 @@ import org.junit.common.Before;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit4ClassRunner;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.RunWith;
+import org.junit.notify.runner.notification.Failure;
 
 @SuppressWarnings("deprecation")
 public class BadlyFormedClassesTest {

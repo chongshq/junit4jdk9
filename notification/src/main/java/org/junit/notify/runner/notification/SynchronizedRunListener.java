@@ -1,7 +1,7 @@
-package org.junit.common.runner.notification;
+package org.junit.notify.runner.notification;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Result;
+import org.junit.notify.runner.Result;
 
 /**
  * Thread-safe decorator for {@link RunListener} implementations that synchronizes

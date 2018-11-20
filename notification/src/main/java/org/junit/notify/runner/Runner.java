@@ -1,12 +1,11 @@
-package org.junit.common.runner;
+package org.junit.notify.runner;
 
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.RunWith;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.RunNotifier;
 
 /**
- * A <code>Runner</code> runs tests and notifies a {@link org.junit.common.runner.notification.RunNotifier}
+ * A <code>Runner</code> runs tests and notifies a {@link org.junit.notify.runner.notification.RunNotifier}
  * of significant events as it does so. You will need to subclass <code>Runner</code>
  * when using {@link RunWith} to invoke a custom runner. When creating
  * a custom runner, in addition to implementing the abstract methods here you must

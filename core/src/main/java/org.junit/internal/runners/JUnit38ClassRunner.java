@@ -12,7 +12,7 @@ import junit.framework.TestResult;
 import junit.framework.TestSuite;
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.Filterable;
 import org.junit.common.runner.manipulation.Orderer;
@@ -21,8 +21,8 @@ import org.junit.common.runner.manipulation.NoTestsRemainException;
 import org.junit.common.runner.manipulation.Orderable;
 import org.junit.common.runner.manipulation.Sortable;
 import org.junit.common.runner.manipulation.Sorter;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunNotifier;
 
 public class JUnit38ClassRunner extends Runner implements Filterable, Orderable {
     private static final class OldTestClassAdaptingListener implements

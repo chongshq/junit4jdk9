@@ -2,14 +2,14 @@ package org.junit.runner;
 
 import junit.framework.Test;
 import junit.runner.Version;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.Runner;
 import org.junit.internal.JUnitSystem;
 import org.junit.internal.RealSystem;
 import org.junit.internal.TextListener;
 import org.junit.internal.runners.JUnit38ClassRunner;
-import org.junit.common.runner.notification.RunListener;
-import org.junit.common.runner.notification.RunNotifier;
+import org.junit.notify.runner.notification.RunListener;
+import org.junit.notify.runner.notification.RunNotifier;
 
 /**
  * <code>JUnitCore</code> is a facade for running tests. It supports running JUnit 4 tests,

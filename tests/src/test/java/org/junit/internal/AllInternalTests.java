@@ -6,7 +6,7 @@ import org.junit.internal.matchers.ThrowableCauseMatcherTest;
 import org.junit.internal.runners.ErrorReportingRunnerTest;
 import org.junit.internal.runners.statements.ExpectExceptionTest;
 import org.junit.internal.runners.statements.FailOnTimeoutTest;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 

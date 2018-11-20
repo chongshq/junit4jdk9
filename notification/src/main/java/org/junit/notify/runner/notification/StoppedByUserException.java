@@ -1,6 +1,4 @@
-package org.junit.common.runner.notification;
-
-import org.junit.common.runner.notification.RunNotifier;
+package org.junit.notify.runner.notification;
 
 /**
  * Thrown when a user has requested that the test run stop. Writers of

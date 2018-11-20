@@ -4,6 +4,7 @@ module core {
     requires util;
     requires junit3;
     requires model;
+    requires notification;
     exports junit.framework;
 //    exports junit.extensions;
     exports junit.textui;

@@ -1,5 +1,5 @@
 /**
- * Provides implementations of {@link org.junit.common.runner.Runner}
+ * Provides implementations of {@link org.junit.notify.runner.Runner}
  *
  * @since 4.0
  */

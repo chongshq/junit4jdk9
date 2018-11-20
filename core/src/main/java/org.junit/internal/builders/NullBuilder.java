@@ -1,6 +1,6 @@
 package org.junit.internal.builders;
 
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.RunnerBuilder;
 
 public class NullBuilder extends RunnerBuilder {

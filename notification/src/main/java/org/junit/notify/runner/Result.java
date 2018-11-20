@@ -1,4 +1,4 @@
-package org.junit.common.runner;
+package org.junit.notify.runner;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -13,8 +13,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.common.runner.Description;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunListener;
 
 /**
  * A <code>Result</code> collects and summarizes information from running multiple tests.

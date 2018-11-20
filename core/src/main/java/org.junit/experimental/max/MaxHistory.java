@@ -12,9 +12,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.common.runner.Description;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
-import org.junit.common.runner.notification.RunListener;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
+import org.junit.notify.runner.notification.RunListener;
 
 /**
  * Stores a subset of the history of each test:

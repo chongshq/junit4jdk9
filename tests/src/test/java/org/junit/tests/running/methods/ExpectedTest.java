@@ -8,8 +8,8 @@ import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.common.internal.AssumptionViolatedException;
 import org.junit.runner.JUnitCore;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
 
 public class ExpectedTest {
 

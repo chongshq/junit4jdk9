@@ -2,10 +2,6 @@ package org.junit.tests.experimental.theories.runner;
 
 import static org.junit.Assert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.failureCountIs;
-import static org.junit.experimental.results.ResultMatchers.hasFailureContaining;
-import static org.junit.experimental.results.ResultMatchers.hasSingleFailureContaining;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -20,7 +16,7 @@ import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
 import org.junit.experimental.theories.Theories;
 import org.junit.experimental.theories.Theory;
-import org.junit.common.runner.RunWith;
+import org.junit.notify.runner.RunWith;
 
 public class WithUnresolvedGenericTypeVariablesOnTheoryParms {
     @Test

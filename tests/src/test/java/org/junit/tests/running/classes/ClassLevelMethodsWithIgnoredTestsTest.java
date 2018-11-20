@@ -16,8 +16,8 @@ import org.junit.rules.TestRule;
 import org.junit.common.runner.Description;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;
-import org.junit.common.runner.Result;
-import org.junit.common.runner.notification.Failure;
+import org.junit.notify.runner.Result;
+import org.junit.notify.runner.notification.Failure;
 import org.junit.runners.model.Statement;
 
 /**

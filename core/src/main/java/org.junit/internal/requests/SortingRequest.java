@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import org.junit.common.runner.Description;
 import org.junit.runner.Request;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.common.runner.manipulation.Sorter;
 
 public class SortingRequest extends Request {

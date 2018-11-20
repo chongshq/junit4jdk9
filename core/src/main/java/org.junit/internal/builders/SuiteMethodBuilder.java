@@ -1,7 +1,7 @@
 package org.junit.internal.builders;
 
 import org.junit.internal.runners.SuiteMethod;
-import org.junit.common.runner.Runner;
+import org.junit.notify.runner.Runner;
 import org.junit.runners.model.RunnerBuilder;
 
 public class SuiteMethodBuilder extends RunnerBuilder {
