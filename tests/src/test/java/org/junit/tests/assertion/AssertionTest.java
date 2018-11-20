@@ -759,8 +759,8 @@ public class AssertionTest {
         try {
             Assert.assertEquals(new NullToString(), new NullToString());
         } catch (AssertionError e) {
-            Assert.assertEquals("expected: AssertionTest$NullToString<null> but "
-                            + "was: AssertionTest$NullToString<null>",
+            Assert.assertEquals("expected: org.junit.tests.assertion.AssertionTest$NullToString<null> but "
+                            + "was: org.junit.tests.assertion.AssertionTest$NullToString<null>",
                     e.getMessage());
             return;
         }
@@ -944,7 +944,7 @@ public class AssertionTest {
             Assert.assertThrows(NestedException.class, throwingRunnable(npe));
         } catch (AssertionError error) {
             Assert.assertEquals(
-                    "unexpected exception type thrown; expected:<AssertionTest.NestedException>"
+                    "unexpected exception type thrown; expected:<org.junit.tests.assertion.AssertionTest.NestedException>"
                     + " but was:<java.lang.NullPointerException>",
                     error.getMessage());
             Assert.assertSame(npe, error.getCause());
@@ -963,7 +963,7 @@ public class AssertionTest {
         } catch (AssertionError error) {
             Assert.assertEquals(
                     "unexpected exception type thrown; expected:<java.io.IOException>"
-                    + " but was:<AssertionTest$1>",
+                    + " but was:<org.junit.tests.assertion.AssertionTest$1>",
                     error.getMessage());
             Assert.assertSame(npe, error.getCause());
             return;
@@ -977,7 +977,7 @@ public class AssertionTest {
             Assert.assertThrows(NestedException.class, nonThrowingRunnable());
         } catch (AssertionError error) {
             Assert.assertEquals(
-                    "expected AssertionTest.NestedException to be thrown,"
+                    "expected org.junit.tests.assertion.AssertionTest.NestedException to be thrown,"
                     + " but nothing was thrown", error.getMessage());
             return;
         }

@@ -52,7 +52,7 @@ public class ExpectExceptionTest {
             Assert.fail("should throw 'Unexpected exception' when statement throws an exception which is not the one expected");
         } catch (Exception e) {
             Assert.assertThat(e.getMessage(), equalTo("Unexpected exception, expected<org.junit.common.internal.AssumptionViolatedException> " +
-                    "but was<ExpectExceptionTest$SomeException>"));
+                    "but was<org.junit.internal.runners.statements.ExpectExceptionTest$SomeException>"));
         }
     }
 
