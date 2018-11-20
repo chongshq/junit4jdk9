@@ -1,4 +1,6 @@
-package junit.j3.framework;
+package junit.framework;
+
+import junit.j3.framework.Assert;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

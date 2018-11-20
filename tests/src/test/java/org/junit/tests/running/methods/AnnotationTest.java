@@ -4,13 +4,12 @@ import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.experimental.results.PrintableResult.testResult;
-import static org.junit.experimental.results.ResultMatchers.isSuccessful;
 
 import java.util.Collection;
 import java.util.HashSet;
 
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestSuite;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 import org.hamcrest.MatcherAssert;
 import org.junit.common.After;
 import org.junit.common.AfterClass;

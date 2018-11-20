@@ -1,5 +1,6 @@
 package org.junit.internal.builders;
 
+import junit.framework.TestCase;
 import org.junit.internal.runners.JUnit38ClassRunner;
 import org.junit.common.runner.Runner;
 import org.junit.runners.model.RunnerBuilder;
@@ -14,6 +15,6 @@ public class JUnit3Builder extends RunnerBuilder {
     }
 
     boolean isPre4Test(Class<?> testClass) {
-        return junit.j3.framework.TestCase.class.isAssignableFrom(testClass);
+        return TestCase.class.isAssignableFrom(testClass);
     }
 }

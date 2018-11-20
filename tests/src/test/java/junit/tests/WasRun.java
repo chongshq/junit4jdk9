@@ -1,6 +1,6 @@
 package junit.tests;
 
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 
 /**
  * A helper test case for testing whether the testing method

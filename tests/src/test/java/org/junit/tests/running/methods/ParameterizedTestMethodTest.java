@@ -183,7 +183,7 @@ public class ParameterizedTestMethodTest {
         Assert.assertEquals(fErrorCount, problems.size());
     }
 
-    public static junit.j3.framework.Test suite() {
+    public static junit.framework.Test suite() {
         return new JUnit4TestAdapter(ParameterizedTestMethodTest.class);
     }
 }

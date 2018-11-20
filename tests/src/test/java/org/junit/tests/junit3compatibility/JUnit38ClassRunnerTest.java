@@ -8,10 +8,10 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import junit.j3.extensions.TestDecorator;
+import junit.extensions.TestDecorator;
 import junit.framework.JUnit4TestAdapter;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestSuite;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.runners.JUnit38ClassRunner;
@@ -88,7 +88,7 @@ public class JUnit38ClassRunnerTest {
         Result result = JUnitCore.runClasses(ClassWithInvalidMethod.class);
         Failure failure = result.getFailures().get(0);
         Assert.assertEquals("warning", failure.getDescription().getMethodName());
-        Assert.assertEquals("junit.j3.framework.TestSuite$1", failure.getDescription().getClassName());
+        Assert.assertEquals("junit.framework.TestSuite$1", failure.getDescription().getClassName());
     }
 
     @Retention(RetentionPolicy.RUNTIME)

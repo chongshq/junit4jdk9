@@ -11,7 +11,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;
@@ -175,6 +175,7 @@ public class MaxStarterTest {
     @Test
     public void testsAreOnlyIncludedOnceWhenExpandingForSorting()
             throws Exception {
+        this.createMax();
         Result result = fMax.run(Request.aClass(TwoTests.class));
         Assert.assertEquals(2, result.getRunCount());
     }

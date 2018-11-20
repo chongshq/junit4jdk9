@@ -1,6 +1,6 @@
 package org.junit.tests.junit3compatibility;
 
-import junit.j3.framework.Test;
+import junit.framework.Test;
 import org.junit.common.runner.RunWith;
 import org.junit.runners.AllTests;
 

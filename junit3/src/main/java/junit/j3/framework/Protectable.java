@@ -1,10 +1,5 @@
 package junit.j3.framework;
 
-/**
- * A <em>Protectable</em> can be run and can throw a Throwable.
- *
- * @see TestResult
- */
 public interface Protectable {
 
     /**

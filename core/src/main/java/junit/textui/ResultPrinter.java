@@ -4,11 +4,11 @@ import java.io.PrintStream;
 import java.text.NumberFormat;
 import java.util.Enumeration;
 
+import junit.framework.TestListener;
 import junit.j3.framework.AssertionFailedError;
-import junit.j3.framework.Test;
-import junit.j3.framework.TestFailure;
-import junit.j3.framework.TestListener;
-import junit.j3.framework.TestResult;
+import junit.framework.Test;
+import junit.framework.TestFailure;
+import junit.framework.TestResult;
 import junit.runner.BaseTestRunner;
 
 public class ResultPrinter implements TestListener {
@@ -104,27 +104,27 @@ public class ResultPrinter implements TestListener {
     }
 
     /**
-     * @see junit.j3.framework.TestListener#addError(Test, Throwable)
+     * @see TestListener#addError(Test, Throwable)
      */
     public void addError(Test test, Throwable e) {
         getWriter().print("E");
     }
 
     /**
-     * @see junit.j3.framework.TestListener#addFailure(Test, AssertionFailedError)
+     * @see TestListener#addFailure(Test, AssertionFailedError)
      */
     public void addFailure(Test test, AssertionFailedError t) {
         getWriter().print("F");
     }
 
     /**
-     * @see junit.j3.framework.TestListener#endTest(Test)
+     * @see TestListener#endTest(Test)
      */
     public void endTest(Test test) {
     }
 
     /**
-     * @see junit.j3.framework.TestListener#startTest(Test)
+     * @see TestListener#startTest(Test)
      */
     public void startTest(Test test) {
         getWriter().print(".");

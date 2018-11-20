@@ -1,6 +1,6 @@
 package junit.tests.framework;
 
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 
 /**
  * A test case testing the testing framework.

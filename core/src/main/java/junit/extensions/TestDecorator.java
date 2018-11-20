@@ -1,8 +1,8 @@
-package junit.j3.extensions;
+package junit.extensions;
 
 import junit.j3.framework.Assert;
-import junit.j3.framework.Test;
-import junit.j3.framework.TestResult;
+import junit.framework.Test;
+import junit.framework.TestResult;
 
 /**
  * A Decorator for Tests. Use TestDecorator as the base class for defining new

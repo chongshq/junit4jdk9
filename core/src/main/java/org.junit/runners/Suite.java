@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 import java.util.Collections;
 import java.util.List;
 
+import junit.framework.Test;
 import org.junit.internal.builders.AllDefaultPossibilitiesBuilder;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.Runner;
@@ -18,7 +19,7 @@ import org.junit.runners.model.RunnerBuilder;
 /**
  * Using <code>Suite</code> as a runner allows you to manually
  * build a suite containing tests from many classes. It is the JUnit 4 equivalent of the JUnit 3.8.x
- * static {@link junit.j3.framework.Test} <code>suite()</code> method. To use it, annotate a class
+ * static {@link Test} <code>suite()</code> method. To use it, annotate a class
  * with <code>@RunWith(Suite.class)</code> and <code>@SuiteClasses({TestClass1.class, ...})</code>.
  * When you run this class, it will run all the tests in all the suite classes.
  *

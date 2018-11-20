@@ -2,8 +2,6 @@ package junit.framework;
 
 import java.util.List;
 
-import junit.j3.framework.Test;
-import junit.j3.framework.TestResult;
 import org.junit.common.Ignore;
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;

@@ -70,6 +70,20 @@
                     <target>9</target>
                 </configuration>
             </plugin>
+            <plugin>
+            <!--
+            A plugin which uses the JUnit framework in order to start
+            our junit suite "AllTests" after the sources are compiled.
+            -->
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>${surefireVersion}</version>
+            <configuration>
+            <test>org/junit/tests/AllTests.java</test>
+            </configuration>
+            <dependencies>
+            </dependencies>
+            </plugin>
         </plugins>
+
     </build>
 </project>

@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.j3.framework.TestResult;
+import junit.framework.TestResult;
 import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.AfterClass;

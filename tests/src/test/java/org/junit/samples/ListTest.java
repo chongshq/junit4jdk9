@@ -41,7 +41,7 @@ public class ListTest {
         fFull.add(3);
     }
 
-    public static junit.j3.framework.Test suite() {
+    public static junit.framework.Test suite() {
         return new JUnit4TestAdapter(ListTest.class);
     }
 
@@ -57,6 +57,7 @@ public class ListTest {
 
     @Test
     public void testCopy() {
+        this.setUp();
         List<Integer> copy = new ArrayList<Integer>(fFull.size());
         copy.addAll(fFull);
         Assert.assertTrue(copy.size() == fFull.size());

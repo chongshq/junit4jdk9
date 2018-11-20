@@ -5,9 +5,9 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 
 import junit.j3.framework.AssertionFailedError;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestResult;
-import junit.j3.framework.TestSuite;
+import junit.framework.TestCase;
+import junit.framework.TestResult;
+import junit.framework.TestSuite;
 import junit.textui.ResultPrinter;
 import junit.textui.TestRunner;
 
@@ -46,6 +46,7 @@ public class TextFeedbackTest extends TestCase {
 
 
     public void testOneTest() {
+        this.setUp();
         String expected = expected(new String[]{".", "Time: 0", "", "OK (1 test)", ""});
         TestSuite suite = new TestSuite();
         suite.addTest(new TestCase() {

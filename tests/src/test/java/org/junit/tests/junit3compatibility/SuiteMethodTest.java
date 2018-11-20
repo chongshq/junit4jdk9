@@ -6,8 +6,8 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import junit.framework.JUnit4TestAdapter;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestSuite;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 import org.junit.Assert;
 import org.junit.common.Ignore;
 import org.junit.common.Test;
@@ -24,7 +24,7 @@ public class SuiteMethodTest {
             super(name);
         }
 
-        public static junit.j3.framework.Test suite() {
+        public static junit.framework.Test suite() {
             TestSuite suite = new TestSuite();
             suite.addTest(new OldTest("notObviouslyATest"));
             return suite;
@@ -48,7 +48,7 @@ public class SuiteMethodTest {
             wasRun = true;
         }
 
-        public static junit.j3.framework.Test suite() {
+        public static junit.framework.Test suite() {
             return new JUnit4TestAdapter(NewTest.class);
         }
     }
@@ -67,7 +67,7 @@ public class SuiteMethodTest {
         public void ignored() {
         }
 
-        public static junit.j3.framework.Test suite() {
+        public static junit.framework.Test suite() {
             return new JUnit4TestAdapter(CompatibilityTest.class);
         }
     }
@@ -88,7 +88,7 @@ public class SuiteMethodTest {
             wasRun = true;
         }
 
-        public static junit.j3.framework.Test suite() {
+        public static junit.framework.Test suite() {
             Assert.fail("called with JUnit 4 runner");
             return null;
         }
@@ -116,7 +116,7 @@ public class SuiteMethodTest {
             wasIgnoredRun = true;
         }
 
-        public static junit.j3.framework.Test suite() {
+        public static junit.framework.Test suite() {
             return new JUnit4TestAdapter(NewTestSuiteNotUsed.class);
         }
     }

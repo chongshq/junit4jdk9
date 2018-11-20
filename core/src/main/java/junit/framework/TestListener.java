@@ -1,4 +1,6 @@
-package junit.j3.framework;
+package junit.framework;
+
+import junit.j3.framework.AssertionFailedError;
 
 /**
  * A Listener for test progress

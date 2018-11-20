@@ -1,8 +1,8 @@
 package junit.samples;
 
-import junit.j3.framework.Test;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestSuite;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 
 /**
  * Some simple tests.

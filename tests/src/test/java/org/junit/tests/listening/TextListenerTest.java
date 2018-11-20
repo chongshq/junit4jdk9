@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.common.Test;
 import org.junit.internal.TextListener;
@@ -35,6 +35,7 @@ public class TextListenerTest extends TestCase {
     }
 
     public void testSuccess() throws Exception {
+        this.setUp();
         runner.run(OneTest.class);
         assertTrue(results.toString().startsWith(convert(".\nTime: ")));
         assertTrue(results.toString().endsWith(convert("\n\nOK (1 test)\n\n")));
@@ -48,6 +49,7 @@ public class TextListenerTest extends TestCase {
     }
 
     public void testError() throws Exception {
+        this.setUp();
         runner.run(ErrorTest.class);
         assertTrue(results.toString().startsWith(convert(".E\nTime: ")));
         assertTrue(results.toString().indexOf(convert("\nThere was 1 failure:\n1) error(TextListenerTest$ErrorTest)\njava.lang.Exception")) != -1);
@@ -60,6 +62,7 @@ public class TextListenerTest extends TestCase {
     }
 
     public void testTime() {
+        this.setUp();
         runner.run(Time.class);
         Assert.assertThat(results.toString(), containsString("Time: "));
         Assert.assertThat(results.toString(), not(containsString(convert("Time: \n"))));

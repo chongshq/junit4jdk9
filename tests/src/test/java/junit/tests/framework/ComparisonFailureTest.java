@@ -1,7 +1,7 @@
 package junit.tests.framework;
 
 import junit.j3.framework.ComparisonFailure;
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 
 public class ComparisonFailureTest extends TestCase {
 

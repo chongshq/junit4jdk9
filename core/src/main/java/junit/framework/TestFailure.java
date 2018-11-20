@@ -1,5 +1,6 @@
-package junit.j3.framework;
+package junit.framework;
 
+import junit.j3.framework.AssertionFailedError;
 import org.junit.common.internal.Throwables;
 
 

@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.File;
 import java.util.List;
 
-import junit.j3.framework.TestCase;
+import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.common.After;
 import org.junit.common.Before;

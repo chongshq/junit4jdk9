@@ -6,9 +6,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestResult;
-import junit.j3.framework.TestSuite;
+import junit.framework.TestCase;
+import junit.framework.TestResult;
+import junit.framework.TestSuite;
 
 public class TextRunnerTest extends TestCase {
 

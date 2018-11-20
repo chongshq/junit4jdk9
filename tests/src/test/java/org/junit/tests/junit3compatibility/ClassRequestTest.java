@@ -8,7 +8,7 @@ import org.junit.internal.builders.SuiteMethodBuilder;
 
 public class ClassRequestTest {
     public static class PrivateSuiteMethod {
-        static junit.j3.framework.Test suite() {
+        static junit.framework.Test suite() {
             return null;
         }
     }

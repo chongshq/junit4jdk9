@@ -3,9 +3,9 @@ package junit.samples;
 import java.util.ArrayList;
 import java.util.List;
 
-import junit.j3.framework.Test;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestSuite;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 
 /**
  * A sample test case, testing {@link java.util.ArrayList}.
@@ -29,6 +29,7 @@ public class ListTest extends TestCase {
     }
 
     public void testCapacity() {
+        this.setUp();
         int size = fullList.size();
         for (int i = 0; i < 100; i++) {
             fullList.add(i);
@@ -37,11 +38,13 @@ public class ListTest extends TestCase {
     }
 
     public void testContains() {
+        this.setUp();
         assertTrue(fullList.contains(1));
         assertFalse(emptyList.contains(1));
     }
 
     public void testElementAt() {
+        this.setUp();
         int i = fullList.get(0);
         assertEquals(1,i);
 
@@ -54,6 +57,7 @@ public class ListTest extends TestCase {
     }
 
     public void testRemoveAll() {
+        this.setUp();
         fullList.removeAll(fullList);
         emptyList.removeAll(emptyList);
         assertTrue(fullList.isEmpty());
@@ -61,6 +65,7 @@ public class ListTest extends TestCase {
     }
 
     public void testRemoveElement() {
+        this.setUp();
         fullList.remove(Integer.valueOf(3));
         assertFalse(fullList.contains(3));
     }

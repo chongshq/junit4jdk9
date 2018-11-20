@@ -1,5 +1,6 @@
 package org.junit.runner;
 
+import junit.framework.Test;
 import junit.runner.Version;
 import org.junit.common.runner.Result;
 import org.junit.common.runner.Runner;
@@ -123,7 +124,7 @@ public class JUnitCore {
      * @param test the old-style test
      * @return a {@link Result} describing the details of the test run and the failed tests.
      */
-    public Result run(junit.j3.framework.Test test) {
+    public Result run(Test test) {
         return run(new JUnit38ClassRunner(test));
     }
 

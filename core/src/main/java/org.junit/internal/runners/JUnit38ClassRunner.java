@@ -3,13 +3,13 @@ package org.junit.internal.runners;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
-import junit.j3.extensions.TestDecorator;
+import junit.extensions.TestDecorator;
 import junit.j3.framework.AssertionFailedError;
-import junit.j3.framework.Test;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestListener;
-import junit.j3.framework.TestResult;
-import junit.j3.framework.TestSuite;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestListener;
+import junit.framework.TestResult;
+import junit.framework.TestSuite;
 import org.junit.common.runner.Describable;
 import org.junit.common.runner.Description;
 import org.junit.common.runner.Runner;
@@ -41,7 +41,7 @@ public class JUnit38ClassRunner extends Runner implements Filterable, Orderable 
             notifier.fireTestStarted(asDescription(test));
         }
 
-        // Implement junit.j3.framework.TestListener
+        // Implement junit.framework.TestListener
         public void addError(Test test, Throwable e) {
             Failure failure = new Failure(asDescription(test), e);
             notifier.fireTestFailure(failure);

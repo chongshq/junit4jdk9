@@ -16,9 +16,9 @@ import java.text.NumberFormat;
 import java.util.Properties;
 
 import junit.j3.framework.AssertionFailedError;
-import junit.j3.framework.Test;
-import junit.j3.framework.TestListener;
-import junit.j3.framework.TestSuite;
+import junit.framework.Test;
+import junit.framework.TestListener;
+import junit.framework.TestSuite;
 
 import org.junit.common.internal.Throwables;
 
@@ -302,9 +302,9 @@ public abstract class BaseTestRunner implements TestListener {
 
     static boolean filterLine(String line) {
         String[] patterns = new String[]{
-                "junit.j3.framework.TestCase",
-                "junit.j3.framework.TestResult",
-                "junit.j3.framework.TestSuite",
+                "junit.framework.TestCase",
+                "junit.framework.TestResult",
+                "junit.framework.TestSuite",
                 "junit.j3.framework.Assert.", // don't filter AssertionFailure
                 "junit.swingui.TestRunner",
                 "junit.awtui.TestRunner",

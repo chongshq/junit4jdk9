@@ -1,12 +1,12 @@
 package junit.tests.framework;
 
 import junit.j3.framework.Protectable;
-import junit.j3.framework.Test;
-import junit.j3.framework.TestCase;
-import junit.j3.framework.TestResult;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestResult;
 
 /**
- * Test an implementor of junit.j3.framework.Test other than TestCase or TestSuite
+ * Test an implementor of junit.framework.Test other than TestCase or TestSuite
  */
 public class TestImplementorTest extends TestCase {
     public static class DoubleTestCase implements Test {
