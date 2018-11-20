@@ -54,9 +54,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$TestWithOneThrowingTestMethod.alwaysThrows"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$TestWithOneThrowingTestMethod.alwaysThrows"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -69,14 +69,14 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: outer"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithCause"),
-                at("StackTracesTest$TestWithOneThrowingTestMethodWithCause.alwaysThrows"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithCause"),
+                at("org.junit.internal.StackTracesTest$TestWithOneThrowingTestMethodWithCause.alwaysThrows"),
                 framesTrimmed(),
                 message("Caused by: java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithCause"),
                 framesInCommon());
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
@@ -90,9 +90,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$TestWithThrowingBeforeMethod.alwaysThrows"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$TestWithThrowingBeforeMethod.alwaysThrows"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -105,9 +105,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$JUnit3TestWithOneThrowingTestMethod.testAlwaysThrows"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$JUnit3TestWithOneThrowingTestMethod.testAlwaysThrows"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
     
@@ -120,9 +120,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$JUnit3TestWithThrowingSetUpMethod.setUp"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$JUnit3TestWithThrowingSetUpMethod.setUp"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -135,9 +135,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$ThrowingTestRule.apply"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$ThrowingTestRule.apply"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -150,9 +150,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$ThrowingTestRule.apply"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$ThrowingTestRule.apply"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -165,9 +165,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: cause"),
-                at("StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
-                at("StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
-                at("StackTracesTest$ThrowingMethodRule.apply"));
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.doThrowExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$FakeClassUnderTest.throwsExceptionWithoutCause"),
+                at("org.junit.internal.StackTracesTest$ThrowingMethodRule.apply"));
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
 
@@ -181,9 +181,9 @@ public class StackTracesTest {
 
         assertHasTrimmedTrace(failure,
                 message("java.lang.RuntimeException: error"),
-                at("StackTracesTest$TestWithSuppressedException.alwaysThrows"),
+                at("org.junit.internal.StackTracesTest$TestWithSuppressedException.alwaysThrows"),
                 message("\tSuppressed: java.lang.RuntimeException: suppressed"),
-                at("StackTracesTest$TestWithSuppressedException.alwaysThrows"),
+                at("org.junit.internal.StackTracesTest$TestWithSuppressedException.alwaysThrows"),
                 framesInCommon());
         Assert.assertNotEquals(failure.getTrace(), failure.getTrimmedTrace());
     }
