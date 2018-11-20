@@ -207,7 +207,7 @@ public class TestWatcherTest {
         @Test
         public void succeeded() {
             JUnitCore.runClasses(Succeeded.class);
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$Succeeded)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Succeeded)",
                     Succeeded.catchedDescription.getDisplayName());
         }
 
@@ -235,7 +235,7 @@ public class TestWatcherTest {
             JUnitCore.runClasses(Failed.class);
             Assert.assertEquals("test failed", Failed.catchedThrowable.getMessage());
             Assert.assertEquals(AssertionError.class, Failed.catchedThrowable.getClass());
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$Failed)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Failed)",
                     Failed.catchedDescription.getDisplayName());
         }
 
@@ -263,7 +263,7 @@ public class TestWatcherTest {
             JUnitCore.runClasses(Skipped.class);
             Assert.assertEquals("test skipped", Skipped.catchedException.getMessage());
             Assert.assertEquals(org.junit.common.AssumptionViolatedException.class, Skipped.catchedException.getClass());
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$Skipped)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Skipped)",
                     Skipped.catchedDescription.getDisplayName());
         }
 
@@ -293,7 +293,7 @@ public class TestWatcherTest {
             JUnitCore.runClasses(DeprecatedSkipped.class);
             Assert.assertEquals("test skipped", DeprecatedSkipped.catchedException.getMessage());
             Assert.assertEquals(AssumptionViolatedException.class, DeprecatedSkipped.catchedException.getClass());
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$DeprecatedSkipped)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$DeprecatedSkipped)",
                     DeprecatedSkipped.catchedDescription.getDisplayName());
         }
 
@@ -316,7 +316,7 @@ public class TestWatcherTest {
         @Test
         public void starting() {
             JUnitCore.runClasses(Starting.class);
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$Starting)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Starting)",
                     Starting.catchedDescription.getDisplayName());
         }
 
@@ -339,7 +339,7 @@ public class TestWatcherTest {
         @Test
         public void finished() {
             JUnitCore.runClasses(Finished.class);
-            Assert.assertEquals("test(TestWatcherTest$CallbackArguments$Finished)",
+            Assert.assertEquals("test(org.junit.rules.TestWatcherTest$CallbackArguments$Finished)",
                     Finished.catchedDescription.getDisplayName());
         }
     }

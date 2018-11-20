@@ -30,7 +30,7 @@ public class TestCaseTest extends TestCase {
         // This test wins the award for twisted snake tail eating while
         // writing self tests. And you thought those weird anonymous
         // inner classes were bad...
-        assertEquals("testCaseToString(TestCaseTest)", toString());
+        assertEquals("testCaseToString(junit.tests.framework.TestCaseTest)", toString());
     }
 
     public void testError() {

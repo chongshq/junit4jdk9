@@ -30,7 +30,7 @@ public class BlockJUnit4ClassRunnerTest {
             Assert.assertEquals("Wrong number of causes.", 1, causes.size());
             Assert.assertEquals(
                     "Wrong exception.",
-                    "The inner class BlockJUnit4ClassRunnerTest$OuterClass$Enclosed is not static.",
+                    "The inner class org.junit.tests.running.classes.BlockJUnit4ClassRunnerTest$OuterClass$Enclosed is not static.",
                     causes.get(0).getMessage());
         }
     }

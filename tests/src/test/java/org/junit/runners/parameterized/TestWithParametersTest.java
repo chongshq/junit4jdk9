@@ -126,7 +126,7 @@ public class TestWithParametersTest {
                 "second parameter"));
         Assert.assertEquals(
                 "Wrong toString().",
-                "TestWithParametersTest$DummyClass 'name' with parameters [first parameter, second parameter]",
+                "org.junit.runners.parameterized.TestWithParametersTest$DummyClass 'name' with parameters [first parameter, second parameter]",
                 test.toString());
     }
 
