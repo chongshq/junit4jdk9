@@ -145,7 +145,8 @@ public class ParentRunnerTest {
     public void cannotBeCreatedWithNonPublicTestClass() {
         assertClassHasFailureMessage(
                 NonPublicTestClass.class,
-                "The class ParentRunnerTest$NonPublicTestClass is not public.");
+//                "The class ParentRunnerTest$NonPublicTestClass is not public.");
+                "Invalid test class 'org.junit.tests.running.classes.ParentRunnerTest$NonPublicTestClass':\n  1. The class org.junit.tests.running.classes.ParentRunnerTest$NonPublicTestClass is not public.");
     }
 
     private void assertClassHasFailureMessage(Class<?> klass, String message) {
